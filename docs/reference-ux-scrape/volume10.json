@@ -1,0 +1,341 @@
+{
+  "id": "volume10",
+  "name": "Volume10",
+  "url": "https://www.volume10.com/home",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "VOLUME10 - Giving space to ideas",
+  "metaDescription": "VOLUME10 is a boutique firm that designs and implements innovative strategic solutions that accelerate our clients' growth and help them achieve their goals. All our tailor-made projects are preceded by a rigorous analysis of the issues and followed by a complete impact study.",
+  "themeColor": null,
+  "fonts": [
+    "sans-serif",
+    "HelveticaNeue"
+  ],
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(230, 228, 228)",
+    "rgb(227, 201, 171)",
+    "rgb(255, 255, 255)",
+    "rgb(113, 113, 113)",
+    "rgb(34, 34, 34)",
+    "rgb(69, 128, 220)",
+    "rgb(0, 128, 0)",
+    "rgb(217, 217, 217)",
+    "rgb(240, 87, 51)",
+    "rgb(217, 135, 216)",
+    "rgb(56, 122, 71)",
+    "rgb(157, 176, 219)"
+  ],
+  "navLinks": [],
+  "headings": [
+    {
+      "level": "h1",
+      "text": "Giving spaceto ideas",
+      "fontSize": "56px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "lineHeight": "61.6px"
+    },
+    {
+      "level": "h2",
+      "text": "CASE STUDY",
+      "fontSize": "11.2px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(0, 128, 0)",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "lineHeight": "16.8px"
+    },
+    {
+      "level": "h3",
+      "text": "Minimum blockage – A study on Innovative Worksite Management",
+      "fontSize": "19.2px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(230, 228, 228)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "26.88px"
+    },
+    {
+      "level": "h2",
+      "text": "CASE STUDY",
+      "fontSize": "11.2px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(0, 128, 0)",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "lineHeight": "16.8px"
+    },
+    {
+      "level": "h3",
+      "text": "Innovation strategy for the MUHC",
+      "fontSize": "19.2px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "26.88px"
+    },
+    {
+      "level": "h2",
+      "text": "OUR MISSION",
+      "fontSize": "12.8px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(240, 87, 51)",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "lineHeight": "19.2px"
+    },
+    {
+      "level": "h2",
+      "text": "OUR PROMISE",
+      "fontSize": "12.8px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(240, 87, 51)",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "lineHeight": "19.2px"
+    },
+    {
+      "level": "h2",
+      "text": "OUR KEY SECTORS",
+      "fontSize": "12.8px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(240, 87, 51)",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "lineHeight": "19.2px"
+    },
+    {
+      "level": "h3",
+      "text": "Infrastructure & construction‍",
+      "fontSize": "16px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "22.4px"
+    },
+    {
+      "level": "h3",
+      "text": "Digital & Connected Health‍",
+      "fontSize": "16px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "22.4px"
+    },
+    {
+      "level": "h3",
+      "text": "Technology & Engineering‍",
+      "fontSize": "16px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "22.4px"
+    },
+    {
+      "level": "h3",
+      "text": "Energy & Mobility‍",
+      "fontSize": "16px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "22.4px"
+    },
+    {
+      "level": "h3",
+      "text": "Socio-economic Development",
+      "fontSize": "16px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "22.4px"
+    },
+    {
+      "level": "h3",
+      "text": "Knowledge & Education‍",
+      "fontSize": "16px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "22.4px"
+    },
+    {
+      "level": "h3",
+      "text": "City & Real Estate‍",
+      "fontSize": "16px",
+      "fontFamily": "HelveticaNeue, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "22.4px"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Meet the team",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Meet the team",
+      "bg": "rgb(217, 135, 216)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Meet the team",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Meet the team",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Get in touch",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Get in touch",
+      "bg": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Get in touch",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Get in touch",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontSize": "14px"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "className": "c-hero-section",
+      "rect": {
+        "width": 1440,
+        "height": 1496,
+        "top": 0
+      }
+    },
+    {
+      "tag": "div",
+      "className": "c-manifest-section",
+      "rect": {
+        "width": 1440,
+        "height": 700,
+        "top": 1246
+      }
+    },
+    {
+      "tag": "div",
+      "className": "c-industry-section",
+      "rect": {
+        "width": 1440,
+        "height": 720,
+        "top": 1946
+      }
+    },
+    {
+      "tag": "div",
+      "className": "tabs",
+      "rect": {
+        "width": 576,
+        "height": 720,
+        "top": 1946
+      }
+    },
+    {
+      "tag": "div",
+      "className": "c-principle-section",
+      "rect": {
+        "width": 1440,
+        "height": 1008,
+        "top": 2666
+      }
+    },
+    {
+      "tag": "div",
+      "className": "c-team-section is--english",
+      "rect": {
+        "width": 1440,
+        "height": 728,
+        "top": 3674
+      }
+    },
+    {
+      "tag": "div",
+      "className": "c-team-container container-large is-team-section w-container",
+      "rect": {
+        "width": 1440,
+        "height": 728,
+        "top": 3674
+      }
+    },
+    {
+      "tag": "div",
+      "className": "c-footer-top-section",
+      "rect": {
+        "width": 1440,
+        "height": 510,
+        "top": 4402
+      }
+    },
+    {
+      "tag": "div",
+      "className": "c-footer-end-section",
+      "rect": {
+        "width": 1440,
+        "height": 192,
+        "top": 4912
+      }
+    }
+  ],
+  "layout": {
+    "bodyBg": "rgb(230, 228, 228)",
+    "bodyColor": "rgb(0, 0, 0)",
+    "bodyFont": "HelveticaNeue, sans-serif",
+    "maxContentWidth": 576,
+    "hasStickyHeader": true,
+    "headerHeight": 900
+  },
+  "interactions": {
+    "linkCount": 31,
+    "buttonCount": 0,
+    "hasVideo": false,
+    "hasCarousel": false,
+    "scrollHeight": 5104
+  },
+  "scrapedAt": "2026-05-24T13:23:53.326Z"
+}

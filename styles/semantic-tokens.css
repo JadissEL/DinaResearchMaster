@@ -1,0 +1,109 @@
+/* Semantic tokens — light default, dark as first-class theme ([cr0x.net](https://cr0x.net/en/docs-theme-design-tokens/)) */
+
+:root {
+  --surface-bg: var(--ref-ws-bg);
+  --surface-bg-elevated: #ffffff;
+  --surface-bg-inset: var(--ref-v10-gray);
+  --surface-text: var(--ref-ws-text);
+  --surface-text-muted: var(--ref-ws-muted);
+  --surface-border: rgba(0, 0, 0, 0.12);
+  --surface-accent: var(--ref-v10-green);
+  --surface-accent-spot: var(--ref-v10-orange);
+  --surface-selection-bg: rgba(0, 128, 0, 0.18);
+  --surface-selection-text: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface-bg: #121212;
+    --surface-bg-elevated: #1a1a1a;
+    --surface-bg-inset: #0d0d0d;
+    --surface-text: #f2f2f2;
+    --surface-text-muted: #a3a3a3;
+    --surface-border: rgba(255, 255, 255, 0.12);
+    --surface-accent: #4ade80;
+    --surface-accent-spot: #fb923c;
+    --surface-selection-bg: rgba(74, 222, 128, 0.25);
+    --surface-selection-text: #fff;
+    --ref-v10-gray: #1a1a1a;
+    --ref-ws-bg: #121212;
+    --ref-ws-text: #f2f2f2;
+    --ref-ny-border: rgba(255, 255, 255, 0.12);
+  }
+}
+
+:root[data-theme="dark"] {
+  --surface-bg: #121212;
+  --surface-bg-elevated: #1a1a1a;
+  --surface-bg-inset: #0d0d0d;
+  --surface-text: #f2f2f2;
+  --surface-text-muted: #a3a3a3;
+  --surface-border: rgba(255, 255, 255, 0.12);
+  --surface-accent: #4ade80;
+  --surface-accent-spot: #fb923c;
+  --surface-selection-bg: rgba(74, 222, 128, 0.25);
+  --surface-selection-text: #fff;
+  --ref-v10-gray: #1a1a1a;
+  --ref-ws-bg: #121212;
+  --ref-ws-text: #f2f2f2;
+  --ref-ny-border: rgba(255, 255, 255, 0.12);
+}
+
+:root[data-theme="light"] {
+  --surface-bg: var(--ref-ws-bg);
+  --surface-bg-elevated: #ffffff;
+  --surface-bg-inset: var(--ref-v10-gray);
+  --surface-text: var(--ref-ws-text);
+  --surface-text-muted: var(--ref-ws-muted);
+  --surface-border: rgba(0, 0, 0, 0.12);
+  --surface-accent: var(--ref-v10-green);
+  --surface-accent-spot: var(--ref-v10-orange);
+}
+
+/* Container — max-width 1440 + fluid padding */
+.container-editorial {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1rem, 4vw, 2rem);
+  padding-right: clamp(1rem, 4vw, 2rem);
+}
+
+/* Bento grid — modular editorial layout (2026 trend) */
+.bento-grid {
+  display: grid;
+  gap: 1px;
+  background: var(--surface-border);
+  border: 1px solid var(--surface-border);
+}
+
+@media (min-width: 768px) {
+  .bento-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-auto-rows: minmax(140px, auto);
+  }
+
+  .bento-feature {
+    grid-column: span 7;
+    grid-row: span 2;
+  }
+
+  .bento-standard {
+    grid-column: span 5;
+  }
+
+  .bento-half {
+    grid-column: span 6;
+  }
+}
+
+.bento-cell {
+  background: var(--surface-bg-elevated);
+  padding: 1.5rem;
+  transition: background 0.2s ease;
+}
+
+.bento-cell:hover {
+  background: var(--surface-bg-inset);
+}

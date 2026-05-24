@@ -1,0 +1,150 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "../styles/tokens.css";
+@import "../styles/reference-ux.css";
+@import "../styles/semantic-tokens.css";
+
+@theme inline {
+  --color-purple-900: var(--purple-900);
+  --color-purple-800: var(--purple-800);
+  --color-purple-700: var(--purple-700);
+  --color-purple-600: var(--purple-600);
+  --color-purple-500: var(--purple-500);
+  --color-purple-400: var(--purple-400);
+  --color-purple-300: var(--purple-300);
+  --color-purple-200: var(--purple-200);
+  --color-purple-100: var(--purple-100);
+  --color-pink-500: var(--pink-500);
+  --color-pink-400: var(--pink-400);
+  --color-pink-300: var(--pink-300);
+  --color-pink-200: var(--pink-200);
+  --color-beige-500: var(--beige-500);
+  --color-beige-400: var(--beige-400);
+  --color-beige-300: var(--beige-300);
+  --color-beige-200: var(--beige-200);
+  --color-beige-100: var(--beige-100);
+  --color-green-soft: var(--green-soft);
+  --color-green-soft-dark: var(--green-soft-dark);
+  --color-ref-v10-gray: var(--ref-v10-gray);
+  --color-ref-v10-green: var(--ref-v10-green);
+  --color-ref-v10-orange: var(--ref-v10-orange);
+  --color-ref-v10-beige: var(--ref-v10-beige);
+  --color-ref-ws-bg: var(--ref-ws-bg);
+  --color-ref-ws-text: var(--ref-ws-text);
+  --color-ref-fridays-red: var(--ref-fridays-red);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-source-serif);
+  --font-ui: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 1rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--surface-bg);
+  color: var(--surface-text);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--surface-selection-bg);
+  color: var(--surface-selection-text);
+}
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+}
+
+.editorial-gradient {
+  background: var(--gradient-hero);
+}
+
+.text-gradient {
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.measure {
+  max-width: var(--measure);
+}
+
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+}
+
+.font-body {
+  font-family: var(--font-source-serif), Georgia, serif;
+}
+
+.font-ui {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.font-mono {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+.prose-editorial p {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: var(--black);
+  margin-bottom: 1.5rem;
+}
+
+.prose-dina {
+  --tw-prose-body: var(--surface-text);
+  --tw-prose-headings: var(--surface-text);
+  --tw-prose-links: var(--surface-accent);
+  --tw-prose-bold: var(--surface-text);
+  --tw-prose-quotes: var(--surface-text-muted);
+}
+
+.prose-editorial h2,
+.prose-editorial h3 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  color: var(--surface-text);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up var(--motion-medium) var(--ease-editorial) forwards;
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+}

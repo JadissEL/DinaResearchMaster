@@ -1,0 +1,689 @@
+/* Reference UX — values from docs/reference-ux-scrape/ live scrape */
+
+:root {
+  --ref-v10-gray: #e6e4e4;
+  --ref-v10-green: #008000;
+  --ref-v10-orange: #f05733;
+  --ref-v10-pink: #d987d8;
+  --ref-v10-beige: #e3c9ab;
+  --ref-ws-bg: #fcfcfc;
+  --ref-ws-text: #32302f;
+  --ref-ws-muted: #686664;
+  --ref-apple-text: #1d1d1f;
+  --ref-apple-muted: #6e6e73;
+  --ref-ny-border: #e2e8f0;
+  --ref-fridays-red: #df271d;
+  --ref-measure-v10: 36rem; /* Volume10 main column ~576px */
+}
+
+/* Volume10 — section labels */
+.label-case-study {
+  font-family: var(--font-inter), Helvetica Neue, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ref-v10-green);
+}
+
+.label-mission {
+  font-family: var(--font-inter), Helvetica Neue, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ref-v10-orange);
+}
+
+/* New Yorker — editorial section titles */
+.section-todays-mix {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(1.5rem, 2.5vw + 0.5rem, 1.75rem);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--surface-text);
+}
+
+.title-mix-article {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(1.125rem, 1.5vw + 0.75rem, 1.375rem);
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--surface-text);
+}
+
+/* Volume10 — hero headline (fluid scale, inkbot 2026) */
+.hero-v10-title {
+  font-family: var(--font-inter), Helvetica Neue, sans-serif;
+  font-size: clamp(2.5rem, 5vw + 1rem, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--surface-text);
+}
+
+.type-lead {
+  font-size: clamp(1.125rem, 2vw + 0.5rem, 1.5rem);
+  line-height: 1.5;
+}
+
+/* Wealthsimple — display trust */
+.display-ws {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--ref-ws-text);
+}
+
+/* Apple — product tile label */
+.label-apple-module {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--ref-apple-muted);
+  letter-spacing: 0.02em;
+}
+
+/* Volume10 — square CTAs (0 border-radius from scrape) */
+.btn-v10 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.btn-v10-primary {
+  background: #000;
+  color: #fff;
+}
+
+.btn-v10-primary:hover {
+  background: var(--ref-v10-pink);
+  color: #000;
+}
+
+.btn-v10-ghost {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-v10-ghost:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Fridays — promo energy */
+.promo-fridays {
+  background: var(--ref-fridays-red);
+  color: #fff;
+}
+
+.scroll-case-rail {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.scroll-case-rail::-webkit-scrollbar {
+  height: 6px;
+}
+
+.editorial-rule {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  height: 0;
+}
+
+.editorial-rule-thick {
+  border-top-width: 2px;
+  border-top-color: var(--ref-v10-green);
+}
+
+/* NYT Magazine–inspired caption50 caption column + main (7-col feel) */
+.magazine-layout {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .magazine-layout {
+    grid-template-columns: minmax(0, 11rem) minmax(0, 1fr);
+    gap: 3rem;
+  }
+}
+
+.magazine-caption {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--ref-apple-muted);
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 1024px) {
+  .magazine-caption {
+    position: sticky;
+    top: calc(var(--header-height) + 1.5rem);
+    align-self: start;
+  }
+}
+
+/* Link micro-interaction (functional feedback, not decoration) */
+.link-ref {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  color: var(--surface-accent);
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+.link-ref:hover {
+  color: var(--surface-text);
+  text-decoration: underline;
+}
+
+/* Footer signature — solid purple colophon */
+.footer-signature {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  text-align: right;
+}
+
+.footer-signature-flourish {
+  display: block;
+  width: 4rem;
+  height: 1px;
+  margin: 0 0 0.75rem auto;
+  background: var(--purple-600);
+  border-radius: 999px;
+  opacity: 0.6;
+}
+
+.footer-signature-text {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--purple-600);
+}
+
+:root[data-theme="dark"] .footer-signature-text {
+  color: var(--purple-400);
+}
+
+:root[data-theme="dark"] .footer-signature-flourish {
+  background: var(--purple-400);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .footer-signature-text {
+    color: var(--purple-400);
+  }
+
+  :root:not([data-theme="light"]) .footer-signature-flourish {
+    background: var(--purple-400);
+  }
+}
+
+/* Reading mode toggle — square segments (Apple / Volume10) */
+.mode-toggle-ref {
+  display: inline-flex;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+
+.mode-toggle-ref button {
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  background: transparent;
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ref-apple-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.mode-toggle-ref button:last-child {
+  border-right: 0;
+}
+
+.mode-toggle-ref button[data-active="true"] {
+  background: #000;
+  color: #fff;
+}
+
+.mode-toggle-ref button:hover:not([data-active="true"]) {
+  background: var(--ref-v10-gray);
+  color: #000;
+}
+
+/* Archive index — The Ken modern archive aesthetic */
+.archive-row {
+  display: grid;
+  gap: 1rem;
+  border-bottom: 1px solid var(--ref-ny-border);
+  padding: 1.5rem 0;
+  transition: background 0.2s ease;
+}
+
+.archive-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+@media (min-width: 768px) {
+  .archive-row {
+    grid-template-columns: 8rem 1fr auto;
+    align-items: baseline;
+    gap: 2rem;
+  }
+}
+
+/* Chip — reference taxonomy tag */
+.chip-ref {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  padding: 0.25rem 0.625rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ref-ws-text);
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.chip-ref:hover {
+  border-color: var(--ref-v10-green);
+  background: var(--ref-v10-gray);
+}
+
+.chip-ref[data-active="true"] {
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+/* Tile hover — controlled comparison (Exat-inspired, restrained) */
+.tile-hover-lift {
+  transition: transform 0.35s var(--ease-editorial);
+}
+
+.tile-hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* WCAG 2.2 — skip link (first focusable element) */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-to-content:focus,
+.skip-to-content:focus-visible {
+  left: 1rem;
+  top: 1rem;
+  outline: 3px solid var(--ref-v10-green);
+  outline-offset: 2px;
+}
+
+/* Focus visible — do not remove outlines (WCAG 2.4.7 / 2.4.13) */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ref-v10-green);
+  outline-offset: 3px;
+}
+
+/* Sticky header — focus not obscured (WCAG 2.4.11) */
+main,
+[id] {
+  scroll-margin-top: calc(var(--header-height) + 1rem);
+}
+
+/* Literary drop cap — NYT / long-form best practice */
+.drop-cap::first-letter {
+  float: left;
+  margin: 0.05em 0.12em 0 0;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 3.5rem;
+  line-height: 0.85;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Stat display — editorial numerals */
+.stat-ref {
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: #000;
+  letter-spacing: -0.02em;
+}
+
+/* Reading progress — NYT-style scroll marker */
+.reading-progress-track {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.reading-progress-fill {
+  background: var(--ref-v10-green);
+  height: 100%;
+  transition: width 150ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reading-progress-fill {
+    transition: none;
+  }
+}
+
+/* Masthead strip — publication identity */
+.masthead-strip {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ref-apple-muted);
+}
+
+/* Reading — magazine best practice: 50–75ch measure, 1.6 line-height */
+.reading-measure {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reading-body {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(1.0625rem, 0.5vw + 1rem, 1.125rem);
+  line-height: 1.7;
+  color: var(--surface-text);
+}
+
+.reading-body p + p {
+  margin-top: 1.25rem;
+}
+
+/* Volume10 case study article structure */
+.case-study-section {
+  border-top: 1px solid var(--ref-ny-border);
+  padding-top: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.case-study-section h2 {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ref-v10-orange);
+  margin-bottom: 1rem;
+}
+
+.case-study-section p {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--ref-ws-text);
+}
+
+/* Sticky chapter nav (New Yorker / long-form best practice) */
+.chapter-nav {
+  position: sticky;
+  top: calc(var(--header-height) + 1.5rem);
+  max-height: calc(100vh - var(--header-height) - 3rem);
+  overflow-y: auto;
+}
+
+.chapter-nav a {
+  display: block;
+  padding: 0.35rem 0;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--ref-apple-muted);
+  border-left: 2px solid transparent;
+  padding-left: 0.75rem;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.chapter-nav a:hover,
+.chapter-nav a[data-active="true"] {
+  color: var(--ref-ws-text);
+  border-left-color: var(--ref-v10-green);
+}
+
+/* Native scroll-driven reveal (2026 best practice, progressive enhancement) */
+@keyframes ref-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  .reveal-on-scroll {
+    animation: ref-fade-up 0.9s var(--ease-editorial) both;
+    animation-timeline: view();
+    animation-range: entry 5% entry 40%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    animation: none;
+  }
+}
+
+/* Connect form — square fields (Volume10) */
+.input-ref {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding: 0.875rem 1rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 1rem;
+  color: var(--ref-ws-text);
+  transition: border-color 0.15s;
+}
+
+.input-ref:focus {
+  outline: none;
+  border-color: var(--ref-v10-green);
+  box-shadow: 0 0 0 2px rgba(0, 128, 0, 0.12);
+}
+
+/* Magazine article meta — headline / dek / byline / date / reading time */
+.editorial-meta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding-top: 1.25rem;
+  margin-top: 1.25rem;
+  border-top: 1px solid var(--surface-border);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--surface-text-muted);
+}
+
+.editorial-meta-bar strong {
+  color: var(--surface-text);
+  font-weight: 600;
+}
+
+/* Site search — Flip180 2026: always discoverable */
+.search-trigger {
+  min-height: 2.75rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--surface-border);
+  background: var(--surface-bg-elevated);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--surface-text-muted);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.search-trigger:hover {
+  border-color: var(--surface-accent);
+  color: var(--surface-text);
+}
+
+.search-kbd {
+  margin-left: 0.25rem;
+  border: 1px solid var(--surface-border);
+  padding: 0.125rem 0.375rem;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 0.625rem;
+  color: var(--surface-text-muted);
+}
+
+.search-dialog {
+  margin: auto;
+  max-width: 36rem;
+  width: calc(100% - 2rem);
+  border: 1px solid var(--surface-border);
+  padding: 0;
+  background: transparent;
+}
+
+.search-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.search-dialog-panel {
+  background: var(--surface-bg-elevated);
+  padding: 1.25rem;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.12);
+}
+
+.search-result-row {
+  display: block;
+  padding: 0.875rem;
+  border: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.search-result-row:hover {
+  background: var(--surface-bg-inset);
+  border-color: var(--surface-border);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Floating reading anchor - Themes.News focal device (mobile/tablet) */
+.reading-anchor {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 40;
+  max-width: 14rem;
+  border: 1px solid var(--surface-border);
+  background: var(--surface-bg-elevated);
+  padding: 0.875rem 1rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 1024px) {
+  .reading-anchor {
+    display: none;
+  }
+}
+
+/* Image captions — magazine figcaption pattern */
+.figcaption-ref {
+  margin-top: 0.75rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--surface-text-muted);
+  text-align: center;
+}
+
+.figcaption-ref[data-align="left"] {
+  text-align: left;
+}
+
+/* Progressive disclosure — longform checkpoints (Theknow 2026) */
+.reading-disclosure {
+  border: 1px solid var(--surface-border);
+  background: var(--surface-bg-inset);
+}
+
+.reading-disclosure summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1rem 1.25rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--surface-text);
+}
+
+.reading-disclosure summary::-webkit-details-marker {
+  display: none;
+}
+
+.reading-disclosure[open] summary {
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.reading-disclosure .reading-disclosure-body {
+  padding: 1rem 1.25rem 1.25rem;
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--surface-text-muted);
+}
+
+.pull-quote-ref {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--surface-text);
+  border-left: 3px solid var(--ref-v10-green);
+  padding-left: 1.5rem;
+  margin: 3rem 0;
+}

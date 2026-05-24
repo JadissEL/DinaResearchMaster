@@ -1,0 +1,253 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ArticleType {
+  INSIGHT
+  RESEARCH_BRIEF
+  COMPANY_STORY
+  TREND_REPORT
+  RISK_OUTLOOK
+  FUTURE_SIGNAL
+  ACADEMIC_REFLECTION
+  PERSPECTIVE
+}
+
+enum ArticleStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum EntityType {
+  COMPANY
+  MARKET
+  PERSON
+  INDUSTRY
+}
+
+enum RelationType {
+  RELATED
+  DEEPER
+  CONTRASTS
+  UPDATES
+}
+
+enum CommentStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  SPAM
+}
+
+enum AnalyticsEventType {
+  PAGE_VIEW
+  SCROLL_DEPTH
+  READ_TIME
+  SHARE_CLICK
+  COMMENT_SUBMIT
+  FOCUS_MODE_TOGGLE
+  ENTITY_LINK_CLICK
+  DOWNLOAD_PDF
+  OG_GENERATED
+}
+
+model Article {
+  id           String        @id @default(cuid())
+  slug         String        @unique
+  type         ArticleType
+  status       ArticleStatus @default(DRAFT)
+  title        String
+  dek          String
+  blocks       Json
+  readingTime  Int           @default(0)
+  aiSummary    String?
+  seo          Json?
+  publishedAt  DateTime?
+  updatedAt    DateTime      @updatedAt
+  createdAt    DateTime      @default(now())
+  heroImage    String?
+  heroMood     String?
+
+  topics       ArticleTopic[]
+  tags         ArticleTag[]
+  entities     ArticleEntity[]
+  relationsFrom ArticleRelation[] @relation("ArticleFrom")
+  relationsTo   ArticleRelation[] @relation("ArticleTo")
+  media        MediaAsset[]
+  comments     Comment[]
+  analytics    AnalyticsEvent[]
+
+  @@index([status, publishedAt])
+  @@index([type])
+}
+
+model Topic {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+  name          String
+  description   String?
+  parentTopicId String?
+  parentTopic   Topic?   @relation("TopicHierarchy", fields: [parentTopicId], references: [id])
+  childTopics   Topic[]  @relation("TopicHierarchy")
+  articles      ArticleTopic[]
+
+  @@index([slug])
+}
+
+model Tag {
+  id       String       @id @default(cuid())
+  slug     String       @unique
+  name     String
+  articles ArticleTag[]
+}
+
+model Entity {
+  id          String          @id @default(cuid())
+  slug        String          @unique
+  name        String
+  type        EntityType
+  description String?
+  metadata    Json?
+  articles    ArticleEntity[]
+
+  @@index([type, slug])
+}
+
+model ArticleTopic {
+  articleId String
+  topicId   String
+  article   Article @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  topic     Topic   @relation(fields: [topicId], references: [id], onDelete: Cascade)
+
+  @@id([articleId, topicId])
+}
+
+model ArticleTag {
+  articleId String
+  tagId     String
+  article   Article @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  tag       Tag     @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([articleId, tagId])
+}
+
+model ArticleEntity {
+  articleId String
+  entityId  String
+  article   Article @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  entity    Entity  @relation(fields: [entityId], references: [id], onDelete: Cascade)
+
+  @@id([articleId, entityId])
+}
+
+model ArticleRelation {
+  id           String       @id @default(cuid())
+  fromArticleId String
+  toArticleId   String
+  type         RelationType
+  weight       Float        @default(1.0)
+  fromArticle  Article      @relation("ArticleFrom", fields: [fromArticleId], references: [id], onDelete: Cascade)
+  toArticle    Article      @relation("ArticleTo", fields: [toArticleId], references: [id], onDelete: Cascade)
+
+  @@unique([fromArticleId, toArticleId, type])
+}
+
+model MediaAsset {
+  id        String  @id @default(cuid())
+  url       String
+  alt       String
+  mood      String?
+  copyright String?
+  focalX    Float?
+  focalY    Float?
+  articleId String?
+  article   Article? @relation(fields: [articleId], references: [id], onDelete: SetNull)
+
+  @@index([articleId])
+}
+
+model Comment {
+  id          String        @id @default(cuid())
+  articleId   String
+  parentId    String?
+  authorName  String
+  authorEmail String?
+  body        String
+  status      CommentStatus @default(PENDING)
+  ipHash      String?
+  insightful  Int           @default(0)
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  article     Article       @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  parent      Comment?      @relation("CommentReplies", fields: [parentId], references: [id], onDelete: Cascade)
+  replies     Comment[]     @relation("CommentReplies")
+
+  @@index([articleId, status])
+  @@index([status, createdAt])
+}
+
+model AuthorProfile {
+  id           String   @id @default(cuid())
+  name         String
+  title        String?
+  bio          String
+  philosophy   String?
+  credentials  Json?
+  socialLinks  Json?
+  avatarUrl    String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model AnalyticsEvent {
+  id        String             @id @default(cuid())
+  eventType AnalyticsEventType
+  articleId String?
+  sessionId String?
+  payload   Json?
+  createdAt DateTime           @default(now())
+
+  article   Article?           @relation(fields: [articleId], references: [id], onDelete: SetNull)
+
+  @@index([articleId, eventType, createdAt])
+  @@index([sessionId])
+}
+
+model CommentAnalysisJob {
+  id        String   @id @default(cuid())
+  status    String   @default("pending")
+  payload   Json?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model CommunityInsight {
+  id        String   @id @default(cuid())
+  articleId String?
+  insight   String
+  sentiment Float?
+  tags      String[]
+  createdAt DateTime @default(now())
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  topic     String
+  message   String
+  createdAt DateTime @default(now())
+}

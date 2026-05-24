@@ -1,0 +1,195 @@
+{
+  "id": "fridays",
+  "name": "TGI Fridays Greece",
+  "url": "https://www.fridays.gr/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Αμερικάνικο Εστιατόριο Αθήνα & Θεσσαλονίκη | TGI Fridays",
+  "metaDescription": "Ζήστε την απόλυτη εμπειρία στα Fridays! Το αγαπημένο σας American restaurant σε Αθήνα & Θεσσαλονίκη περιμένει να σας ενθουσιάσει με τα πιάτα και cocktails του.",
+  "themeColor": "#000000",
+  "fonts": [
+    "sans-serif",
+    "Inter",
+    "arial",
+    "Roboto Slab",
+    "Sofia Sans Extra Condensed",
+    "Britannic_Gr_It"
+  ],
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(223, 39, 29)",
+    "rgb(0, 0, 238)",
+    "rgba(255, 255, 255, 0.8)",
+    "rgba(0, 0, 0, 0.5)"
+  ],
+  "navLinks": [
+    {
+      "text": "Eat",
+      "href": "https://www.fridays.gr/appetizers/"
+    },
+    {
+      "text": "Drink",
+      "href": "https://www.fridays.gr/a-little-bit-of-everything/"
+    },
+    {
+      "text": "FRIDAYS CLUB CARD",
+      "href": "https://www.fridaysclub.gr/"
+    },
+    {
+      "text": "PROMOTIONS & EVENTS",
+      "href": "https://www.fridays.gr/promotions/"
+    },
+    {
+      "text": "FIND US",
+      "href": "https://www.fridays.gr/restaurants/"
+    },
+    {
+      "text": "QUALITY COMMITMENT",
+      "href": "https://www.fridays.gr/quality-commitment/"
+    },
+    {
+      "text": "Quality Commitment",
+      "href": "https://www.fridays.gr/quality-commitment/"
+    },
+    {
+      "text": "Food Quality",
+      "href": "https://www.fridays.gr/food-facts/"
+    },
+    {
+      "text": "Allergen Menu",
+      "href": "https://www.fridays.gr/wp-content/uploads/2024/09/09.24_gr_menu_allergen_1440.pdf"
+    },
+    {
+      "text": "CAREER",
+      "href": "https://www.fridays.gr/career/"
+    },
+    {
+      "text": "OUR STORY",
+      "href": "https://www.fridays.gr/our-story/"
+    },
+    {
+      "text": "EN",
+      "href": "https://www.fridays.gr/en/"
+    }
+  ],
+  "headings": [
+    {
+      "level": "h1",
+      "text": "Σχετικά με τα cookies αυτού του ιστοτόπου",
+      "fontSize": "27px",
+      "fontFamily": "Inter, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "lineHeight": "32.4px"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "ΑΠΟΔΟΧΗ",
+      "bg": "rgb(223, 39, 29)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "ΑΠΟΡΡΙΨΗ",
+      "bg": "rgb(223, 39, 29)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Προτιμήσεις",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "ΕΓΓΡΑΦΗ",
+      "bg": "rgb(223, 39, 29)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "50%",
+      "fontSize": "25.4545px"
+    },
+    {
+      "text": "BE A MEMBER",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "DAILY SPECIALS",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Υποβολή",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "50%",
+      "fontSize": "25.4545px"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "className": "video-hero \n\t\t\t\tvideo-hero--cover\t\t\t\t",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 0
+      }
+    },
+    {
+      "tag": "div",
+      "className": "video-hero__inner",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 0
+      }
+    },
+    {
+      "tag": "div",
+      "className": "video-hero__bg object-fit-cover",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 0
+      }
+    },
+    {
+      "tag": "div",
+      "className": "video-hero__content",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 200
+      }
+    }
+  ],
+  "layout": {
+    "bodyBg": "rgba(0, 0, 0, 0)",
+    "bodyColor": "rgb(0, 0, 0)",
+    "bodyFont": "Inter, sans-serif",
+    "maxContentWidth": null,
+    "hasStickyHeader": true,
+    "headerHeight": 85
+  },
+  "interactions": {
+    "linkCount": 109,
+    "buttonCount": 7,
+    "hasVideo": true,
+    "hasCarousel": true,
+    "scrollHeight": 6159
+  },
+  "scrapedAt": "2026-05-24T13:24:51.439Z"
+}

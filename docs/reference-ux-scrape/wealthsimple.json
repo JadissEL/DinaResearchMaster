@@ -1,0 +1,435 @@
+{
+  "id": "wealthsimple",
+  "name": "Wealthsimple",
+  "url": "https://www.wealthsimple.com/en-ca",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Wealthsimple | More is more",
+  "metaDescription": "Being better than a bank means more of everything. Spend, trade and invest with Wealthsimple.",
+  "themeColor": null,
+  "fonts": [
+    "Times New Roman",
+    "the-future",
+    "wealthsimple-sans"
+  ],
+  "colors": [
+    "rgb(50, 48, 47)",
+    "rgb(252, 252, 252)",
+    "color(srgb 0.988235 0.988235 0.988235 / 0.9)",
+    "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+    "rgb(240, 240, 240)",
+    "rgb(255, 255, 255)",
+    "color(srgb 0.196078 0.188235 0.184314 / 0.9)",
+    "color(srgb 0.196078 0.188235 0.184314 / 0.1)",
+    "rgba(255, 255, 255, 0.1)",
+    "rgb(28, 27, 27)",
+    "rgb(228, 226, 225)",
+    "rgb(104, 102, 100)",
+    "rgb(0, 0, 0)"
+  ],
+  "navLinks": [
+    {
+      "text": "Skip to main content",
+      "href": "https://www.wealthsimple.com/en-ca#main"
+    },
+    {
+      "text": "Get started",
+      "href": "https://my.wealthsimple.com/app/signup?locale=en-ca&ajs_event=CTA+triggered+signup+started&ajs_prop_signupCta=Get+started&ajs_prop_signupPath=%2Fen-ca"
+    },
+    {
+      "text": "Log in",
+      "href": "https://my.wealthsimple.com/app/login?locale=en-ca"
+    },
+    {
+      "text": "Get started",
+      "href": "https://my.wealthsimple.com/app/signup?locale=en-ca&ajs_event=CTA+triggered+signup+started&ajs_prop_signupCta=Get+started&ajs_prop_signupPath=%2Fen-ca"
+    },
+    {
+      "text": "Chequing account",
+      "href": "https://www.wealthsimple.com/en-ca/chequing"
+    },
+    {
+      "text": "Credit card",
+      "href": "https://www.wealthsimple.com/en-ca/credit-card"
+    },
+    {
+      "text": "Mortgages",
+      "href": "https://www.wealthsimple.com/en-ca/mortgages"
+    },
+    {
+      "text": "Active trading",
+      "href": "https://www.wealthsimple.com/en-ca/trade/active-trading"
+    },
+    {
+      "text": "Options",
+      "href": "https://www.wealthsimple.com/en-ca/trade/options"
+    },
+    {
+      "text": "Margin",
+      "href": "https://www.wealthsimple.com/en-ca/trade/margin"
+    },
+    {
+      "text": "Gold",
+      "href": "https://www.wealthsimple.com/en-ca/trade/gold"
+    },
+    {
+      "text": "Crypto",
+      "href": "https://www.wealthsimple.com/en-ca/trade/crypto"
+    },
+    {
+      "text": "Direct Indexing",
+      "href": "https://www.wealthsimple.com/en-ca/trade/direct-indexing"
+    },
+    {
+      "text": "All trading tools",
+      "href": "https://www.wealthsimple.com/en-ca/trade"
+    },
+    {
+      "text": "Summit portfolios",
+      "href": "https://www.wealthsimple.com/en-ca/invest/summit-portfolios"
+    },
+    {
+      "text": "Classic portfolios",
+      "href": "https://www.wealthsimple.com/en-ca/invest/classic-portfolios"
+    },
+    {
+      "text": "Income portfolios",
+      "href": "https://www.wealthsimple.com/en-ca/invest/income-portfolios"
+    },
+    {
+      "text": "Work with an advisor",
+      "href": "https://www.wealthsimple.com/en-ca/invest/advice"
+    },
+    {
+      "text": "Portfolio line of credit",
+      "href": "https://www.wealthsimple.com/en-ca/portfolio-line-of-credit"
+    }
+  ],
+  "headings": [
+    {
+      "level": "h1",
+      "text": "More is more",
+      "fontSize": "64px",
+      "fontFamily": "tiempos, Lucida, Georgia, \"serif\"",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.64px",
+      "lineHeight": "74.24px"
+    },
+    {
+      "level": "h2",
+      "text": "Canada’s most rewarding chequing account",
+      "fontSize": "48px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "0.24px",
+      "lineHeight": "55.68px"
+    },
+    {
+      "level": "h2",
+      "text": "The simplest way to get 2% cash back on everything you buy",
+      "fontSize": "48px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "0.24px",
+      "lineHeight": "55.68px"
+    },
+    {
+      "level": "h2",
+      "text": "Welcome to the future of money",
+      "fontSize": "128px",
+      "fontFamily": "tiempos, Lucida, Georgia, \"serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "400",
+      "letterSpacing": "-1.28px",
+      "lineHeight": "148.48px"
+    },
+    {
+      "level": "h2",
+      "text": "Trade like a pro with faster tools, better benefits, and $0 commissions",
+      "fontSize": "48px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "500",
+      "letterSpacing": "0.24px",
+      "lineHeight": "55.68px"
+    },
+    {
+      "level": "h2",
+      "text": "The Summit portfolio. Private markets, long-term growth, zero maintenance.",
+      "fontSize": "48px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.24px",
+      "lineHeight": "55.68px"
+    },
+    {
+      "level": "h2",
+      "text": "The Classic portfolio. Low-fee, diversified, and as aggressive (or not) as you need.",
+      "fontSize": "48px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.24px",
+      "lineHeight": "55.68px"
+    },
+    {
+      "level": "h2",
+      "text": "Trusted by over 4 million Canadians",
+      "fontSize": "128px",
+      "fontFamily": "tiempos, Lucida, Georgia, \"serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "400",
+      "letterSpacing": "-1.28px",
+      "lineHeight": "138.24px"
+    },
+    {
+      "level": "h2",
+      "text": "Wealthsimple - Footer",
+      "fontSize": "57.92px",
+      "fontFamily": "the-future, system-ui, \"Helvetica Neue\", sans-serif",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "57.92px"
+    },
+    {
+      "level": "h3",
+      "text": "About us",
+      "fontSize": "18px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.09px",
+      "lineHeight": "20.88px"
+    },
+    {
+      "level": "h3",
+      "text": "Legal",
+      "fontSize": "18px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.09px",
+      "lineHeight": "20.88px"
+    },
+    {
+      "level": "h3",
+      "text": "Accounts",
+      "fontSize": "18px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.09px",
+      "lineHeight": "20.88px"
+    },
+    {
+      "level": "h3",
+      "text": "Products",
+      "fontSize": "18px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.09px",
+      "lineHeight": "20.88px"
+    },
+    {
+      "level": "h3",
+      "text": "Social",
+      "fontSize": "18px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.09px",
+      "lineHeight": "20.88px"
+    },
+    {
+      "level": "h3",
+      "text": "Support",
+      "fontSize": "18px",
+      "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+      "color": "rgb(50, 48, 47)",
+      "fontWeight": "500",
+      "letterSpacing": "0.09px",
+      "lineHeight": "20.88px"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Skip to main content",
+      "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+      "color": "rgb(50, 48, 47)",
+      "borderRadius": "1600px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Get started",
+      "bg": "rgb(50, 48, 47)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "1600px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Log in",
+      "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+      "color": "rgb(50, 48, 47)",
+      "borderRadius": "1600px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Get started",
+      "bg": "rgb(50, 48, 47)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "1600px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Menu",
+      "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+      "color": "rgb(50, 48, 47)",
+      "borderRadius": "1600px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Wealthsimple Takes Over Your LifeSee what you missed",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontSize": "18px"
+    },
+    {
+      "text": "See what you missed",
+      "bg": "color(srgb 0.196078 0.188235 0.184314 / 0.1)",
+      "color": "rgb(252, 252, 252)",
+      "borderRadius": "1600px",
+      "fontSize": "16px"
+    },
+    {
+      "text": "Get a 1% match on account transfersRegister now",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(50, 48, 47)",
+      "borderRadius": "0px",
+      "fontSize": "18px"
+    },
+    {
+      "text": "Register now",
+      "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+      "color": "rgb(50, 48, 47)",
+      "borderRadius": "1600px",
+      "fontSize": "16px"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme Hero_section___sqt_1",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 0
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme ExplodedMenu_section___l",
+      "rect": {
+        "width": 1440,
+        "height": 1042,
+        "top": 900
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme ProductHero_section___tbiwj",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 1942
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme ProductHero_section___tbiwj",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 2842
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme",
+      "rect": {
+        "width": 1440,
+        "height": 1135,
+        "top": 3742
+      }
+    },
+    {
+      "tag": "div",
+      "className": "AboutUs_section___LXXK2",
+      "rect": {
+        "width": 1264,
+        "height": 815,
+        "top": 3902
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme ProductHero_section___tbiwj",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 4877
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme ProductHero_section___tb",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 5777
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme ProductHero_section___tb",
+      "rect": {
+        "width": 1440,
+        "height": 900,
+        "top": 6677
+      }
+    },
+    {
+      "tag": "section",
+      "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme TLDRSection_section___Xs",
+      "rect": {
+        "width": 1440,
+        "height": 763,
+        "top": 7577
+      }
+    }
+  ],
+  "layout": {
+    "bodyBg": "rgb(252, 252, 252)",
+    "bodyColor": "rgb(50, 48, 47)",
+    "bodyFont": "the-future, system-ui, \"Helvetica Neue\", sans-serif",
+    "maxContentWidth": 1440,
+    "hasStickyHeader": true,
+    "headerHeight": 97
+  },
+  "interactions": {
+    "linkCount": 129,
+    "buttonCount": 26,
+    "hasVideo": true,
+    "hasCarousel": true,
+    "scrollHeight": 10413
+  },
+  "scrapedAt": "2026-05-24T13:24:14.747Z"
+}

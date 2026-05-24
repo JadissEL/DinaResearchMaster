@@ -1,0 +1,351 @@
+{
+  "id": "apple",
+  "name": "Apple Greece",
+  "url": "https://www.apple.com/gr/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "Apple (Ελλάδα)",
+  "metaDescription": null,
+  "themeColor": null,
+  "fonts": [
+    "SF Pro Text",
+    "SF Pro Display"
+  ],
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(29, 29, 31)",
+    "rgb(255, 255, 255)",
+    "rgba(0, 0, 0, 0.8)",
+    "rgb(250, 250, 252)",
+    "rgba(255, 255, 255, 0.8)",
+    "rgb(110, 110, 115)",
+    "rgb(51, 51, 54)"
+  ],
+  "navLinks": [
+    {
+      "text": "Apple",
+      "href": "https://www.apple.com/gr/"
+    },
+    {
+      "text": "Mac",
+      "href": "https://www.apple.com/gr/mac/"
+    },
+    {
+      "text": "Εξερεύνηση όλων των Mac",
+      "href": "https://www.apple.com/gr/mac/"
+    },
+    {
+      "text": "MacBook Neo",
+      "href": "https://www.apple.com/gr/macbook-neo/"
+    },
+    {
+      "text": "MacBook Air",
+      "href": "https://www.apple.com/gr/macbook-air/"
+    },
+    {
+      "text": "MacBook Pro",
+      "href": "https://www.apple.com/gr/macbook-pro/"
+    },
+    {
+      "text": "iMac",
+      "href": "https://www.apple.com/gr/imac/"
+    },
+    {
+      "text": "Mac mini",
+      "href": "https://www.apple.com/gr/mac-mini/"
+    },
+    {
+      "text": "Mac Studio",
+      "href": "https://www.apple.com/gr/mac-studio/"
+    },
+    {
+      "text": "Οθόνες",
+      "href": "https://www.apple.com/gr/displays/"
+    },
+    {
+      "text": "Σύγκριση Mac",
+      "href": "https://www.apple.com/gr/mac/compare/"
+    },
+    {
+      "text": "Υποστήριξη Mac",
+      "href": "https://support.apple.com/el-gr/mac?cid=gn-ols-mac-psp-prodfly"
+    },
+    {
+      "text": "Προϊόντα AppleCare",
+      "href": "https://www.apple.com/gr/support/products/mac/"
+    },
+    {
+      "text": "iPad",
+      "href": "https://www.apple.com/gr/ipad/"
+    },
+    {
+      "text": "Εξερεύνηση όλων των iPad",
+      "href": "https://www.apple.com/gr/ipad/"
+    },
+    {
+      "text": "iPad Pro",
+      "href": "https://www.apple.com/gr/ipad-pro/"
+    },
+    {
+      "text": "iPad Air",
+      "href": "https://www.apple.com/gr/ipad-air/"
+    },
+    {
+      "text": "iPad",
+      "href": "https://www.apple.com/gr/ipad-11/"
+    },
+    {
+      "text": "iPad mini",
+      "href": "https://www.apple.com/gr/ipad-mini/"
+    },
+    {
+      "text": "Apple Pencil",
+      "href": "https://www.apple.com/gr/apple-pencil/"
+    }
+  ],
+  "headings": [
+    {
+      "level": "h1",
+      "text": "Apple",
+      "fontSize": "34px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(29, 29, 31)",
+      "fontWeight": "600",
+      "letterSpacing": "-0.374px",
+      "lineHeight": "50.0001px"
+    },
+    {
+      "level": "h2",
+      "text": "Εξερεύνηση Mac",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Περισσότερα από τον κόσμο του Mac",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Εξερεύνηση iPad",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Περισσότερα από τον κόσμο του iPad",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Εξερεύνηση iPhone",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Περισσότερα από τον κόσμο του iPhone",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Εξερεύνηση Watch",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Περισσότερα από τον κόσμο του Watch",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Εξερεύνηση AirPods",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Περισσότερα από τον κόσμο των AirPods",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Εξερεύνηση TV",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Περισσότερα από τον κόσμο του TV",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Εξερεύνηση Ψυχαγωγίας",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    },
+    {
+      "level": "h2",
+      "text": "Υποστήριξη",
+      "fontSize": "12px",
+      "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(110, 110, 115)",
+      "fontWeight": "400",
+      "letterSpacing": "-0.12px",
+      "lineHeight": "16.0005px"
+    }
+  ],
+  "buttons": [],
+  "sections": [
+    {
+      "tag": "section",
+      "className": "homepage-section collection-module",
+      "rect": {
+        "width": 1440,
+        "height": 2112,
+        "top": 44
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "unit-image unit-image-iphone-family-hero-iphone-family",
+      "rect": {
+        "width": 3008,
+        "height": 692,
+        "top": 44
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "unit-image unit-image-ipad-air-m4-hero-ipad-air-m4",
+      "rect": {
+        "width": 3008,
+        "height": 692,
+        "top": 748
+      }
+    },
+    {
+      "tag": "figure",
+      "className": "unit-image unit-image-macbook-air-m5-hero-macbook-air-m5",
+      "rect": {
+        "width": 3008,
+        "height": 692,
+        "top": 1452
+      }
+    },
+    {
+      "tag": "section",
+      "className": "homepage-section collection-module",
+      "rect": {
+        "width": 1416,
+        "height": 1776,
+        "top": 2156
+      }
+    },
+    {
+      "tag": "section",
+      "className": "homepage-section standalone-module",
+      "rect": {
+        "width": 1440,
+        "height": 561,
+        "top": 3932
+      }
+    },
+    {
+      "tag": "section",
+      "className": "ac-gf-sosumi",
+      "rect": {
+        "width": 980,
+        "height": 128,
+        "top": 4493
+      }
+    },
+    {
+      "tag": "div",
+      "className": "ac-gf-directory-column-section",
+      "rect": {
+        "width": 245,
+        "height": 221,
+        "top": 4641
+      }
+    }
+  ],
+  "layout": {
+    "bodyBg": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(29, 29, 31)",
+    "bodyFont": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "maxContentWidth": 1440,
+    "hasStickyHeader": false,
+    "headerHeight": 4988
+  },
+  "interactions": {
+    "linkCount": 142,
+    "buttonCount": 25,
+    "hasVideo": false,
+    "hasCarousel": false,
+    "scrollHeight": 4988
+  },
+  "scrapedAt": "2026-05-24T13:23:58.713Z"
+}

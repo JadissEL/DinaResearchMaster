@@ -1,0 +1,6 @@
+node_modules
+.next
+out
+coverage
+prisma/migrations
+docs/reference-ux-scrape/screenshots

@@ -1,0 +1,353 @@
+{
+  "id": "newyorker",
+  "name": "The New Yorker",
+  "url": "https://www.newyorker.com/",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "title": "The New Yorker",
+  "metaDescription": "Reporting, Profiles, breaking news, cultural coverage, podcasts, videos, and cartoons from The New Yorker.",
+  "themeColor": null,
+  "fonts": [
+    "sans-serif",
+    "TNYAdobeCaslonPro",
+    "Inter"
+  ],
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgba(0, 0, 0, 0.25)",
+    "rgb(74, 85, 104)",
+    "rgb(247, 250, 252)",
+    "rgb(43, 46, 53)",
+    "rgb(237, 242, 247)",
+    "rgb(255, 255, 255)",
+    "rgb(225, 231, 238)",
+    "rgb(160, 174, 192)",
+    "rgb(226, 232, 240)",
+    "rgb(113, 128, 150)",
+    "rgb(45, 55, 72)"
+  ],
+  "navLinks": [
+    {
+      "text": "Newsletter",
+      "href": "https://www.newyorker.com/newsletters?sourceCode=navbar"
+    },
+    {
+      "text": "Sign In",
+      "href": "https://www.newyorker.com/auth/initiate?redirectURL=%2F&source=VERSO_NAVIGATION"
+    },
+    {
+      "text": "Subscribe",
+      "href": "https://www.newyorker.com/v2/offers/tnya01062?source=Site_0_JNY_NYR_DESKTOP_NAV_CTA_0_HARD_GATE_INTL_MARCH_2026_ZZ"
+    },
+    {
+      "text": "Subscribe",
+      "href": "https://www.newyorker.com/v2/offers/tnya01062?source=Site_0_JNY_NYR_DESKTOP_NAV_CTA_0_HARD_GATE_INTL_MARCH_2026_ZZ"
+    },
+    {
+      "text": "The Latest",
+      "href": "https://www.newyorker.com/latest"
+    },
+    {
+      "text": "News",
+      "href": "https://www.newyorker.com/news"
+    },
+    {
+      "text": "Books & Culture",
+      "href": "https://www.newyorker.com/culture"
+    },
+    {
+      "text": "Fiction & Poetry",
+      "href": "https://www.newyorker.com/fiction-and-poetry"
+    },
+    {
+      "text": "Humor & Cartoons",
+      "href": "https://www.newyorker.com/humor"
+    },
+    {
+      "text": "Magazine",
+      "href": "https://www.newyorker.com/archive"
+    },
+    {
+      "text": "Puzzles & Games",
+      "href": "https://www.newyorker.com/crossword-puzzles-and-games"
+    },
+    {
+      "text": "Video",
+      "href": "https://www.newyorker.com/video"
+    },
+    {
+      "text": "Podcasts",
+      "href": "https://www.newyorker.com/podcasts"
+    },
+    {
+      "text": "Goings On",
+      "href": "https://www.newyorker.com/goings-on"
+    },
+    {
+      "text": "Shop",
+      "href": "https://store.newyorker.com/"
+    },
+    {
+      "text": "News",
+      "href": "https://www.newyorker.com/news"
+    },
+    {
+      "text": "Books & Culture",
+      "href": "https://www.newyorker.com/culture"
+    }
+  ],
+  "headings": [
+    {
+      "level": "h2",
+      "text": "We and our partners process data for the following purposes",
+      "fontSize": "16px",
+      "fontFamily": "Inter, sans-serif",
+      "color": "rgb(74, 85, 104)",
+      "fontWeight": "600",
+      "letterSpacing": "normal",
+      "lineHeight": "24px"
+    },
+    {
+      "level": "h1",
+      "text": "The New Yorker",
+      "fontSize": "42px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "lineHeight": "31.5px"
+    },
+    {
+      "level": "h3",
+      "text": "Over the Moon",
+      "fontSize": "36px",
+      "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(255, 255, 255)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "40px"
+    },
+    {
+      "level": "h2",
+      "text": "Today’s Mix",
+      "fontSize": "28px",
+      "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "32px"
+    },
+    {
+      "level": "h3",
+      "text": "How Prepared Are We for a Public-Health Emergency?",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    },
+    {
+      "level": "h3",
+      "text": "What’s Missing from Belle Burden’s “Strangers”",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    },
+    {
+      "level": "h3",
+      "text": "The Transformation of Elina Svitolina",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    },
+    {
+      "level": "h3",
+      "text": "Is the Working Class Finally Turning on Trump?",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    },
+    {
+      "level": "h2",
+      "text": "Fiction",
+      "fontSize": "12px",
+      "fontFamily": "IrvinText, IrvinHeadingPro, Georgia, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "16px"
+    },
+    {
+      "level": "h2",
+      "text": "“Many Worlds”",
+      "fontSize": "36px",
+      "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "40px"
+    },
+    {
+      "level": "h2",
+      "text": "The Lede",
+      "fontSize": "28px",
+      "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "32px"
+    },
+    {
+      "level": "h3",
+      "text": "How Good Is This World Cup Squad, Really?",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    },
+    {
+      "level": "h3",
+      "text": "A Republican Bloodbath in the Texas Senate Primary Is Giving Democrats Hope",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    },
+    {
+      "level": "h3",
+      "text": "Clarence Thomas Against Progressivism—and Progressives",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    },
+    {
+      "level": "h3",
+      "text": "Benjamin Netanyahu’s War at Home",
+      "fontSize": "22px",
+      "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "color": "rgb(0, 0, 0)",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "28px"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Purposes",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(43, 46, 53)",
+      "borderRadius": "0px",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Features",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 85, 104)",
+      "borderRadius": "0px",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Vendors",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 85, 104)",
+      "borderRadius": "0px",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Consent",
+      "bg": "rgb(43, 46, 53)",
+      "color": "rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontSize": "14px"
+    },
+    {
+      "text": "Legitimate interest",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 85, 104)",
+      "borderRadius": "0px",
+      "fontSize": "14px"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "className": "MultiPackageContainer-cgfviT kKzwfP multi-packages",
+      "rect": {
+        "width": 1440,
+        "height": 17207,
+        "top": 0
+      }
+    },
+    {
+      "tag": "div",
+      "className": "StickyHeroAdWrapper-kurarC gSpllZ ad-stickyhero ad-stickyhero-enable-mobile",
+      "rect": {
+        "width": 1440,
+        "height": 106,
+        "top": 0
+      }
+    },
+    {
+      "tag": "div",
+      "className": "AdWrapper-fGiLaV iGDxYx ad ad--hero should-hold-space",
+      "rect": {
+        "width": 1440,
+        "height": 90,
+        "top": 8
+      }
+    },
+    {
+      "tag": "section",
+      "className": "SpotlightSummaryContainer-cDjYti eSgKvn",
+      "rect": {
+        "width": 1312,
+        "height": 658,
+        "top": 1663
+      }
+    },
+    {
+      "tag": "section",
+      "className": "SpotlightSummaryGrid-ioVwkt dARdSl",
+      "rect": {
+        "width": 1184,
+        "height": 562,
+        "top": 1711
+      }
+    }
+  ],
+  "layout": {
+    "bodyBg": "rgba(0, 0, 0, 0)",
+    "bodyColor": "rgb(0, 0, 0)",
+    "bodyFont": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+    "maxContentWidth": 1440,
+    "hasStickyHeader": false,
+    "headerHeight": 900
+  },
+  "interactions": {
+    "linkCount": 166,
+    "buttonCount": 110,
+    "hasVideo": false,
+    "hasCarousel": false,
+    "scrollHeight": 18274
+  },
+  "scrapedAt": "2026-05-24T13:24:06.394Z"
+}

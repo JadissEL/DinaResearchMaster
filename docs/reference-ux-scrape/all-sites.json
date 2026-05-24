@@ -1,0 +1,1677 @@
+[
+  {
+    "id": "volume10",
+    "name": "Volume10",
+    "url": "https://www.volume10.com/home",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "title": "VOLUME10 - Giving space to ideas",
+    "metaDescription": "VOLUME10 is a boutique firm that designs and implements innovative strategic solutions that accelerate our clients' growth and help them achieve their goals. All our tailor-made projects are preceded by a rigorous analysis of the issues and followed by a complete impact study.",
+    "themeColor": null,
+    "fonts": [
+      "sans-serif",
+      "HelveticaNeue"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(230, 228, 228)",
+      "rgb(227, 201, 171)",
+      "rgb(255, 255, 255)",
+      "rgb(113, 113, 113)",
+      "rgb(34, 34, 34)",
+      "rgb(69, 128, 220)",
+      "rgb(0, 128, 0)",
+      "rgb(217, 217, 217)",
+      "rgb(240, 87, 51)",
+      "rgb(217, 135, 216)",
+      "rgb(56, 122, 71)",
+      "rgb(157, 176, 219)"
+    ],
+    "navLinks": [],
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Giving spaceto ideas",
+        "fontSize": "56px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "61.6px"
+      },
+      {
+        "level": "h2",
+        "text": "CASE STUDY",
+        "fontSize": "11.2px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(0, 128, 0)",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "16.8px"
+      },
+      {
+        "level": "h3",
+        "text": "Minimum blockage – A study on Innovative Worksite Management",
+        "fontSize": "19.2px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(230, 228, 228)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "26.88px"
+      },
+      {
+        "level": "h2",
+        "text": "CASE STUDY",
+        "fontSize": "11.2px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(0, 128, 0)",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "16.8px"
+      },
+      {
+        "level": "h3",
+        "text": "Innovation strategy for the MUHC",
+        "fontSize": "19.2px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "26.88px"
+      },
+      {
+        "level": "h2",
+        "text": "OUR MISSION",
+        "fontSize": "12.8px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(240, 87, 51)",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "level": "h2",
+        "text": "OUR PROMISE",
+        "fontSize": "12.8px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(240, 87, 51)",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "level": "h2",
+        "text": "OUR KEY SECTORS",
+        "fontSize": "12.8px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(240, 87, 51)",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "19.2px"
+      },
+      {
+        "level": "h3",
+        "text": "Infrastructure & construction‍",
+        "fontSize": "16px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "level": "h3",
+        "text": "Digital & Connected Health‍",
+        "fontSize": "16px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "level": "h3",
+        "text": "Technology & Engineering‍",
+        "fontSize": "16px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "level": "h3",
+        "text": "Energy & Mobility‍",
+        "fontSize": "16px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "level": "h3",
+        "text": "Socio-economic Development",
+        "fontSize": "16px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "level": "h3",
+        "text": "Knowledge & Education‍",
+        "fontSize": "16px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      },
+      {
+        "level": "h3",
+        "text": "City & Real Estate‍",
+        "fontSize": "16px",
+        "fontFamily": "HelveticaNeue, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "22.4px"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Meet the team",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Meet the team",
+        "bg": "rgb(217, 135, 216)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Meet the team",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Meet the team",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Get in touch",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Get in touch",
+        "bg": "rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Get in touch",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Get in touch",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "className": "c-hero-section",
+        "rect": {
+          "width": 1440,
+          "height": 1496,
+          "top": 0
+        }
+      },
+      {
+        "tag": "div",
+        "className": "c-manifest-section",
+        "rect": {
+          "width": 1440,
+          "height": 700,
+          "top": 1246
+        }
+      },
+      {
+        "tag": "div",
+        "className": "c-industry-section",
+        "rect": {
+          "width": 1440,
+          "height": 720,
+          "top": 1946
+        }
+      },
+      {
+        "tag": "div",
+        "className": "tabs",
+        "rect": {
+          "width": 576,
+          "height": 720,
+          "top": 1946
+        }
+      },
+      {
+        "tag": "div",
+        "className": "c-principle-section",
+        "rect": {
+          "width": 1440,
+          "height": 1008,
+          "top": 2666
+        }
+      },
+      {
+        "tag": "div",
+        "className": "c-team-section is--english",
+        "rect": {
+          "width": 1440,
+          "height": 728,
+          "top": 3674
+        }
+      },
+      {
+        "tag": "div",
+        "className": "c-team-container container-large is-team-section w-container",
+        "rect": {
+          "width": 1440,
+          "height": 728,
+          "top": 3674
+        }
+      },
+      {
+        "tag": "div",
+        "className": "c-footer-top-section",
+        "rect": {
+          "width": 1440,
+          "height": 510,
+          "top": 4402
+        }
+      },
+      {
+        "tag": "div",
+        "className": "c-footer-end-section",
+        "rect": {
+          "width": 1440,
+          "height": 192,
+          "top": 4912
+        }
+      }
+    ],
+    "layout": {
+      "bodyBg": "rgb(230, 228, 228)",
+      "bodyColor": "rgb(0, 0, 0)",
+      "bodyFont": "HelveticaNeue, sans-serif",
+      "maxContentWidth": 576,
+      "hasStickyHeader": true,
+      "headerHeight": 900
+    },
+    "interactions": {
+      "linkCount": 31,
+      "buttonCount": 0,
+      "hasVideo": false,
+      "hasCarousel": false,
+      "scrollHeight": 5104
+    },
+    "scrapedAt": "2026-05-24T13:23:53.326Z"
+  },
+  {
+    "id": "apple",
+    "name": "Apple Greece",
+    "url": "https://www.apple.com/gr/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "title": "Apple (Ελλάδα)",
+    "metaDescription": null,
+    "themeColor": null,
+    "fonts": [
+      "SF Pro Text",
+      "SF Pro Display"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(29, 29, 31)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0.8)",
+      "rgb(250, 250, 252)",
+      "rgba(255, 255, 255, 0.8)",
+      "rgb(110, 110, 115)",
+      "rgb(51, 51, 54)"
+    ],
+    "navLinks": [
+      {
+        "text": "Apple",
+        "href": "https://www.apple.com/gr/"
+      },
+      {
+        "text": "Mac",
+        "href": "https://www.apple.com/gr/mac/"
+      },
+      {
+        "text": "Εξερεύνηση όλων των Mac",
+        "href": "https://www.apple.com/gr/mac/"
+      },
+      {
+        "text": "MacBook Neo",
+        "href": "https://www.apple.com/gr/macbook-neo/"
+      },
+      {
+        "text": "MacBook Air",
+        "href": "https://www.apple.com/gr/macbook-air/"
+      },
+      {
+        "text": "MacBook Pro",
+        "href": "https://www.apple.com/gr/macbook-pro/"
+      },
+      {
+        "text": "iMac",
+        "href": "https://www.apple.com/gr/imac/"
+      },
+      {
+        "text": "Mac mini",
+        "href": "https://www.apple.com/gr/mac-mini/"
+      },
+      {
+        "text": "Mac Studio",
+        "href": "https://www.apple.com/gr/mac-studio/"
+      },
+      {
+        "text": "Οθόνες",
+        "href": "https://www.apple.com/gr/displays/"
+      },
+      {
+        "text": "Σύγκριση Mac",
+        "href": "https://www.apple.com/gr/mac/compare/"
+      },
+      {
+        "text": "Υποστήριξη Mac",
+        "href": "https://support.apple.com/el-gr/mac?cid=gn-ols-mac-psp-prodfly"
+      },
+      {
+        "text": "Προϊόντα AppleCare",
+        "href": "https://www.apple.com/gr/support/products/mac/"
+      },
+      {
+        "text": "iPad",
+        "href": "https://www.apple.com/gr/ipad/"
+      },
+      {
+        "text": "Εξερεύνηση όλων των iPad",
+        "href": "https://www.apple.com/gr/ipad/"
+      },
+      {
+        "text": "iPad Pro",
+        "href": "https://www.apple.com/gr/ipad-pro/"
+      },
+      {
+        "text": "iPad Air",
+        "href": "https://www.apple.com/gr/ipad-air/"
+      },
+      {
+        "text": "iPad",
+        "href": "https://www.apple.com/gr/ipad-11/"
+      },
+      {
+        "text": "iPad mini",
+        "href": "https://www.apple.com/gr/ipad-mini/"
+      },
+      {
+        "text": "Apple Pencil",
+        "href": "https://www.apple.com/gr/apple-pencil/"
+      }
+    ],
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Apple",
+        "fontSize": "34px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(29, 29, 31)",
+        "fontWeight": "600",
+        "letterSpacing": "-0.374px",
+        "lineHeight": "50.0001px"
+      },
+      {
+        "level": "h2",
+        "text": "Εξερεύνηση Mac",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Περισσότερα από τον κόσμο του Mac",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Εξερεύνηση iPad",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Περισσότερα από τον κόσμο του iPad",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Εξερεύνηση iPhone",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Περισσότερα από τον κόσμο του iPhone",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Εξερεύνηση Watch",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Περισσότερα από τον κόσμο του Watch",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Εξερεύνηση AirPods",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Περισσότερα από τον κόσμο των AirPods",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Εξερεύνηση TV",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Περισσότερα από τον κόσμο του TV",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Εξερεύνηση Ψυχαγωγίας",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      },
+      {
+        "level": "h2",
+        "text": "Υποστήριξη",
+        "fontSize": "12px",
+        "fontFamily": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(110, 110, 115)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.12px",
+        "lineHeight": "16.0005px"
+      }
+    ],
+    "buttons": [],
+    "sections": [
+      {
+        "tag": "section",
+        "className": "homepage-section collection-module",
+        "rect": {
+          "width": 1440,
+          "height": 2112,
+          "top": 44
+        }
+      },
+      {
+        "tag": "figure",
+        "className": "unit-image unit-image-iphone-family-hero-iphone-family",
+        "rect": {
+          "width": 3008,
+          "height": 692,
+          "top": 44
+        }
+      },
+      {
+        "tag": "figure",
+        "className": "unit-image unit-image-ipad-air-m4-hero-ipad-air-m4",
+        "rect": {
+          "width": 3008,
+          "height": 692,
+          "top": 748
+        }
+      },
+      {
+        "tag": "figure",
+        "className": "unit-image unit-image-macbook-air-m5-hero-macbook-air-m5",
+        "rect": {
+          "width": 3008,
+          "height": 692,
+          "top": 1452
+        }
+      },
+      {
+        "tag": "section",
+        "className": "homepage-section collection-module",
+        "rect": {
+          "width": 1416,
+          "height": 1776,
+          "top": 2156
+        }
+      },
+      {
+        "tag": "section",
+        "className": "homepage-section standalone-module",
+        "rect": {
+          "width": 1440,
+          "height": 561,
+          "top": 3932
+        }
+      },
+      {
+        "tag": "section",
+        "className": "ac-gf-sosumi",
+        "rect": {
+          "width": 980,
+          "height": 128,
+          "top": 4493
+        }
+      },
+      {
+        "tag": "div",
+        "className": "ac-gf-directory-column-section",
+        "rect": {
+          "width": 245,
+          "height": 221,
+          "top": 4641
+        }
+      }
+    ],
+    "layout": {
+      "bodyBg": "rgb(255, 255, 255)",
+      "bodyColor": "rgb(29, 29, 31)",
+      "bodyFont": "\"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "maxContentWidth": 1440,
+      "hasStickyHeader": false,
+      "headerHeight": 4988
+    },
+    "interactions": {
+      "linkCount": 142,
+      "buttonCount": 25,
+      "hasVideo": false,
+      "hasCarousel": false,
+      "scrollHeight": 4988
+    },
+    "scrapedAt": "2026-05-24T13:23:58.713Z"
+  },
+  {
+    "id": "newyorker",
+    "name": "The New Yorker",
+    "url": "https://www.newyorker.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "title": "The New Yorker",
+    "metaDescription": "Reporting, Profiles, breaking news, cultural coverage, podcasts, videos, and cartoons from The New Yorker.",
+    "themeColor": null,
+    "fonts": [
+      "sans-serif",
+      "TNYAdobeCaslonPro",
+      "Inter"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgba(0, 0, 0, 0.25)",
+      "rgb(74, 85, 104)",
+      "rgb(247, 250, 252)",
+      "rgb(43, 46, 53)",
+      "rgb(237, 242, 247)",
+      "rgb(255, 255, 255)",
+      "rgb(225, 231, 238)",
+      "rgb(160, 174, 192)",
+      "rgb(226, 232, 240)",
+      "rgb(113, 128, 150)",
+      "rgb(45, 55, 72)"
+    ],
+    "navLinks": [
+      {
+        "text": "Newsletter",
+        "href": "https://www.newyorker.com/newsletters?sourceCode=navbar"
+      },
+      {
+        "text": "Sign In",
+        "href": "https://www.newyorker.com/auth/initiate?redirectURL=%2F&source=VERSO_NAVIGATION"
+      },
+      {
+        "text": "Subscribe",
+        "href": "https://www.newyorker.com/v2/offers/tnya01062?source=Site_0_JNY_NYR_DESKTOP_NAV_CTA_0_HARD_GATE_INTL_MARCH_2026_ZZ"
+      },
+      {
+        "text": "Subscribe",
+        "href": "https://www.newyorker.com/v2/offers/tnya01062?source=Site_0_JNY_NYR_DESKTOP_NAV_CTA_0_HARD_GATE_INTL_MARCH_2026_ZZ"
+      },
+      {
+        "text": "The Latest",
+        "href": "https://www.newyorker.com/latest"
+      },
+      {
+        "text": "News",
+        "href": "https://www.newyorker.com/news"
+      },
+      {
+        "text": "Books & Culture",
+        "href": "https://www.newyorker.com/culture"
+      },
+      {
+        "text": "Fiction & Poetry",
+        "href": "https://www.newyorker.com/fiction-and-poetry"
+      },
+      {
+        "text": "Humor & Cartoons",
+        "href": "https://www.newyorker.com/humor"
+      },
+      {
+        "text": "Magazine",
+        "href": "https://www.newyorker.com/archive"
+      },
+      {
+        "text": "Puzzles & Games",
+        "href": "https://www.newyorker.com/crossword-puzzles-and-games"
+      },
+      {
+        "text": "Video",
+        "href": "https://www.newyorker.com/video"
+      },
+      {
+        "text": "Podcasts",
+        "href": "https://www.newyorker.com/podcasts"
+      },
+      {
+        "text": "Goings On",
+        "href": "https://www.newyorker.com/goings-on"
+      },
+      {
+        "text": "Shop",
+        "href": "https://store.newyorker.com/"
+      },
+      {
+        "text": "News",
+        "href": "https://www.newyorker.com/news"
+      },
+      {
+        "text": "Books & Culture",
+        "href": "https://www.newyorker.com/culture"
+      }
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "We and our partners process data for the following purposes",
+        "fontSize": "16px",
+        "fontFamily": "Inter, sans-serif",
+        "color": "rgb(74, 85, 104)",
+        "fontWeight": "600",
+        "letterSpacing": "normal",
+        "lineHeight": "24px"
+      },
+      {
+        "level": "h1",
+        "text": "The New Yorker",
+        "fontSize": "42px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "31.5px"
+      },
+      {
+        "level": "h3",
+        "text": "Over the Moon",
+        "fontSize": "36px",
+        "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "40px"
+      },
+      {
+        "level": "h2",
+        "text": "Today’s Mix",
+        "fontSize": "28px",
+        "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "32px"
+      },
+      {
+        "level": "h3",
+        "text": "How Prepared Are We for a Public-Health Emergency?",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "level": "h3",
+        "text": "What’s Missing from Belle Burden’s “Strangers”",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "level": "h3",
+        "text": "The Transformation of Elina Svitolina",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "level": "h3",
+        "text": "Is the Working Class Finally Turning on Trump?",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "level": "h2",
+        "text": "Fiction",
+        "fontSize": "12px",
+        "fontFamily": "IrvinText, IrvinHeadingPro, Georgia, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "16px"
+      },
+      {
+        "level": "h2",
+        "text": "“Many Worlds”",
+        "fontSize": "36px",
+        "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "40px"
+      },
+      {
+        "level": "h2",
+        "text": "The Lede",
+        "fontSize": "28px",
+        "fontFamily": "IrvinHeadingPro, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "32px"
+      },
+      {
+        "level": "h3",
+        "text": "How Good Is This World Cup Squad, Really?",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "level": "h3",
+        "text": "A Republican Bloodbath in the Texas Senate Primary Is Giving Democrats Hope",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "level": "h3",
+        "text": "Clarence Thomas Against Progressivism—and Progressives",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      },
+      {
+        "level": "h3",
+        "text": "Benjamin Netanyahu’s War at Home",
+        "fontSize": "22px",
+        "fontFamily": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "28px"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Purposes",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(43, 46, 53)",
+        "borderRadius": "0px",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Features",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(74, 85, 104)",
+        "borderRadius": "0px",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Vendors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(74, 85, 104)",
+        "borderRadius": "0px",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Consent",
+        "bg": "rgb(43, 46, 53)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Legitimate interest",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(74, 85, 104)",
+        "borderRadius": "0px",
+        "fontSize": "14px"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "className": "MultiPackageContainer-cgfviT kKzwfP multi-packages",
+        "rect": {
+          "width": 1440,
+          "height": 17207,
+          "top": 0
+        }
+      },
+      {
+        "tag": "div",
+        "className": "StickyHeroAdWrapper-kurarC gSpllZ ad-stickyhero ad-stickyhero-enable-mobile",
+        "rect": {
+          "width": 1440,
+          "height": 106,
+          "top": 0
+        }
+      },
+      {
+        "tag": "div",
+        "className": "AdWrapper-fGiLaV iGDxYx ad ad--hero should-hold-space",
+        "rect": {
+          "width": 1440,
+          "height": 90,
+          "top": 8
+        }
+      },
+      {
+        "tag": "section",
+        "className": "SpotlightSummaryContainer-cDjYti eSgKvn",
+        "rect": {
+          "width": 1312,
+          "height": 658,
+          "top": 1663
+        }
+      },
+      {
+        "tag": "section",
+        "className": "SpotlightSummaryGrid-ioVwkt dARdSl",
+        "rect": {
+          "width": 1184,
+          "height": 562,
+          "top": 1711
+        }
+      }
+    ],
+    "layout": {
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "bodyColor": "rgb(0, 0, 0)",
+      "bodyFont": "TNYAdobeCaslonPro, \"Times New Roman\", Times, serif",
+      "maxContentWidth": 1440,
+      "hasStickyHeader": false,
+      "headerHeight": 900
+    },
+    "interactions": {
+      "linkCount": 166,
+      "buttonCount": 110,
+      "hasVideo": false,
+      "hasCarousel": false,
+      "scrollHeight": 18274
+    },
+    "scrapedAt": "2026-05-24T13:24:06.394Z"
+  },
+  {
+    "id": "wealthsimple",
+    "name": "Wealthsimple",
+    "url": "https://www.wealthsimple.com/en-ca",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "title": "Wealthsimple | More is more",
+    "metaDescription": "Being better than a bank means more of everything. Spend, trade and invest with Wealthsimple.",
+    "themeColor": null,
+    "fonts": [
+      "Times New Roman",
+      "the-future",
+      "wealthsimple-sans"
+    ],
+    "colors": [
+      "rgb(50, 48, 47)",
+      "rgb(252, 252, 252)",
+      "color(srgb 0.988235 0.988235 0.988235 / 0.9)",
+      "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+      "rgb(240, 240, 240)",
+      "rgb(255, 255, 255)",
+      "color(srgb 0.196078 0.188235 0.184314 / 0.9)",
+      "color(srgb 0.196078 0.188235 0.184314 / 0.1)",
+      "rgba(255, 255, 255, 0.1)",
+      "rgb(28, 27, 27)",
+      "rgb(228, 226, 225)",
+      "rgb(104, 102, 100)",
+      "rgb(0, 0, 0)"
+    ],
+    "navLinks": [
+      {
+        "text": "Skip to main content",
+        "href": "https://www.wealthsimple.com/en-ca#main"
+      },
+      {
+        "text": "Get started",
+        "href": "https://my.wealthsimple.com/app/signup?locale=en-ca&ajs_event=CTA+triggered+signup+started&ajs_prop_signupCta=Get+started&ajs_prop_signupPath=%2Fen-ca"
+      },
+      {
+        "text": "Log in",
+        "href": "https://my.wealthsimple.com/app/login?locale=en-ca"
+      },
+      {
+        "text": "Get started",
+        "href": "https://my.wealthsimple.com/app/signup?locale=en-ca&ajs_event=CTA+triggered+signup+started&ajs_prop_signupCta=Get+started&ajs_prop_signupPath=%2Fen-ca"
+      },
+      {
+        "text": "Chequing account",
+        "href": "https://www.wealthsimple.com/en-ca/chequing"
+      },
+      {
+        "text": "Credit card",
+        "href": "https://www.wealthsimple.com/en-ca/credit-card"
+      },
+      {
+        "text": "Mortgages",
+        "href": "https://www.wealthsimple.com/en-ca/mortgages"
+      },
+      {
+        "text": "Active trading",
+        "href": "https://www.wealthsimple.com/en-ca/trade/active-trading"
+      },
+      {
+        "text": "Options",
+        "href": "https://www.wealthsimple.com/en-ca/trade/options"
+      },
+      {
+        "text": "Margin",
+        "href": "https://www.wealthsimple.com/en-ca/trade/margin"
+      },
+      {
+        "text": "Gold",
+        "href": "https://www.wealthsimple.com/en-ca/trade/gold"
+      },
+      {
+        "text": "Crypto",
+        "href": "https://www.wealthsimple.com/en-ca/trade/crypto"
+      },
+      {
+        "text": "Direct Indexing",
+        "href": "https://www.wealthsimple.com/en-ca/trade/direct-indexing"
+      },
+      {
+        "text": "All trading tools",
+        "href": "https://www.wealthsimple.com/en-ca/trade"
+      },
+      {
+        "text": "Summit portfolios",
+        "href": "https://www.wealthsimple.com/en-ca/invest/summit-portfolios"
+      },
+      {
+        "text": "Classic portfolios",
+        "href": "https://www.wealthsimple.com/en-ca/invest/classic-portfolios"
+      },
+      {
+        "text": "Income portfolios",
+        "href": "https://www.wealthsimple.com/en-ca/invest/income-portfolios"
+      },
+      {
+        "text": "Work with an advisor",
+        "href": "https://www.wealthsimple.com/en-ca/invest/advice"
+      },
+      {
+        "text": "Portfolio line of credit",
+        "href": "https://www.wealthsimple.com/en-ca/portfolio-line-of-credit"
+      }
+    ],
+    "headings": [
+      {
+        "level": "h1",
+        "text": "More is more",
+        "fontSize": "64px",
+        "fontFamily": "tiempos, Lucida, Georgia, \"serif\"",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "400",
+        "letterSpacing": "-0.64px",
+        "lineHeight": "74.24px"
+      },
+      {
+        "level": "h2",
+        "text": "Canada’s most rewarding chequing account",
+        "fontSize": "48px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "0.24px",
+        "lineHeight": "55.68px"
+      },
+      {
+        "level": "h2",
+        "text": "The simplest way to get 2% cash back on everything you buy",
+        "fontSize": "48px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "0.24px",
+        "lineHeight": "55.68px"
+      },
+      {
+        "level": "h2",
+        "text": "Welcome to the future of money",
+        "fontSize": "128px",
+        "fontFamily": "tiempos, Lucida, Georgia, \"serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "400",
+        "letterSpacing": "-1.28px",
+        "lineHeight": "148.48px"
+      },
+      {
+        "level": "h2",
+        "text": "Trade like a pro with faster tools, better benefits, and $0 commissions",
+        "fontSize": "48px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(255, 255, 255)",
+        "fontWeight": "500",
+        "letterSpacing": "0.24px",
+        "lineHeight": "55.68px"
+      },
+      {
+        "level": "h2",
+        "text": "The Summit portfolio. Private markets, long-term growth, zero maintenance.",
+        "fontSize": "48px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.24px",
+        "lineHeight": "55.68px"
+      },
+      {
+        "level": "h2",
+        "text": "The Classic portfolio. Low-fee, diversified, and as aggressive (or not) as you need.",
+        "fontSize": "48px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.24px",
+        "lineHeight": "55.68px"
+      },
+      {
+        "level": "h2",
+        "text": "Trusted by over 4 million Canadians",
+        "fontSize": "128px",
+        "fontFamily": "tiempos, Lucida, Georgia, \"serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "400",
+        "letterSpacing": "-1.28px",
+        "lineHeight": "138.24px"
+      },
+      {
+        "level": "h2",
+        "text": "Wealthsimple - Footer",
+        "fontSize": "57.92px",
+        "fontFamily": "the-future, system-ui, \"Helvetica Neue\", sans-serif",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.92px"
+      },
+      {
+        "level": "h3",
+        "text": "About us",
+        "fontSize": "18px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.09px",
+        "lineHeight": "20.88px"
+      },
+      {
+        "level": "h3",
+        "text": "Legal",
+        "fontSize": "18px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.09px",
+        "lineHeight": "20.88px"
+      },
+      {
+        "level": "h3",
+        "text": "Accounts",
+        "fontSize": "18px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.09px",
+        "lineHeight": "20.88px"
+      },
+      {
+        "level": "h3",
+        "text": "Products",
+        "fontSize": "18px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.09px",
+        "lineHeight": "20.88px"
+      },
+      {
+        "level": "h3",
+        "text": "Social",
+        "fontSize": "18px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.09px",
+        "lineHeight": "20.88px"
+      },
+      {
+        "level": "h3",
+        "text": "Support",
+        "fontSize": "18px",
+        "fontFamily": "the-future, \"system-ui\", \"Helvetica Neue\", \"sans-serif\"",
+        "color": "rgb(50, 48, 47)",
+        "fontWeight": "500",
+        "letterSpacing": "0.09px",
+        "lineHeight": "20.88px"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Skip to main content",
+        "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+        "color": "rgb(50, 48, 47)",
+        "borderRadius": "1600px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Get started",
+        "bg": "rgb(50, 48, 47)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "1600px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Log in",
+        "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+        "color": "rgb(50, 48, 47)",
+        "borderRadius": "1600px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Get started",
+        "bg": "rgb(50, 48, 47)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "1600px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Menu",
+        "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+        "color": "rgb(50, 48, 47)",
+        "borderRadius": "1600px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Wealthsimple Takes Over Your LifeSee what you missed",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "fontSize": "18px"
+      },
+      {
+        "text": "See what you missed",
+        "bg": "color(srgb 0.196078 0.188235 0.184314 / 0.1)",
+        "color": "rgb(252, 252, 252)",
+        "borderRadius": "1600px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Get a 1% match on account transfersRegister now",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(50, 48, 47)",
+        "borderRadius": "0px",
+        "fontSize": "18px"
+      },
+      {
+        "text": "Register now",
+        "bg": "color(srgb 0.988235 0.988235 0.988235 / 0.2)",
+        "color": "rgb(50, 48, 47)",
+        "borderRadius": "1600px",
+        "fontSize": "16px"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme Hero_section___sqt_1",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 0
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme ExplodedMenu_section___l",
+        "rect": {
+          "width": 1440,
+          "height": 1042,
+          "top": 900
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme ProductHero_section___tbiwj",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 1942
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme ProductHero_section___tbiwj",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 2842
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme",
+        "rect": {
+          "width": 1440,
+          "height": 1135,
+          "top": 3742
+        }
+      },
+      {
+        "tag": "div",
+        "className": "AboutUs_section___LXXK2",
+        "rect": {
+          "width": 1264,
+          "height": 815,
+          "top": 3902
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-dark-theme ProductHero_section___tbiwj",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 4877
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme ProductHero_section___tb",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 5777
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme ProductHero_section___tb",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 6677
+        }
+      },
+      {
+        "tag": "section",
+        "className": "Section_section___ntyFI Background_wrapper___W2dAv ws-content-default-theme TLDRSection_section___Xs",
+        "rect": {
+          "width": 1440,
+          "height": 763,
+          "top": 7577
+        }
+      }
+    ],
+    "layout": {
+      "bodyBg": "rgb(252, 252, 252)",
+      "bodyColor": "rgb(50, 48, 47)",
+      "bodyFont": "the-future, system-ui, \"Helvetica Neue\", sans-serif",
+      "maxContentWidth": 1440,
+      "hasStickyHeader": true,
+      "headerHeight": 97
+    },
+    "interactions": {
+      "linkCount": 129,
+      "buttonCount": 26,
+      "hasVideo": true,
+      "hasCarousel": true,
+      "scrollHeight": 10413
+    },
+    "scrapedAt": "2026-05-24T13:24:14.747Z"
+  },
+  {
+    "id": "fridays",
+    "name": "TGI Fridays Greece",
+    "url": "https://www.fridays.gr/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "title": "Αμερικάνικο Εστιατόριο Αθήνα & Θεσσαλονίκη | TGI Fridays",
+    "metaDescription": "Ζήστε την απόλυτη εμπειρία στα Fridays! Το αγαπημένο σας American restaurant σε Αθήνα & Θεσσαλονίκη περιμένει να σας ενθουσιάσει με τα πιάτα και cocktails του.",
+    "themeColor": "#000000",
+    "fonts": [
+      "sans-serif",
+      "Inter",
+      "arial",
+      "Roboto Slab",
+      "Sofia Sans Extra Condensed",
+      "Britannic_Gr_It"
+    ],
+    "colors": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgb(223, 39, 29)",
+      "rgb(0, 0, 238)",
+      "rgba(255, 255, 255, 0.8)",
+      "rgba(0, 0, 0, 0.5)"
+    ],
+    "navLinks": [
+      {
+        "text": "Eat",
+        "href": "https://www.fridays.gr/appetizers/"
+      },
+      {
+        "text": "Drink",
+        "href": "https://www.fridays.gr/a-little-bit-of-everything/"
+      },
+      {
+        "text": "FRIDAYS CLUB CARD",
+        "href": "https://www.fridaysclub.gr/"
+      },
+      {
+        "text": "PROMOTIONS & EVENTS",
+        "href": "https://www.fridays.gr/promotions/"
+      },
+      {
+        "text": "FIND US",
+        "href": "https://www.fridays.gr/restaurants/"
+      },
+      {
+        "text": "QUALITY COMMITMENT",
+        "href": "https://www.fridays.gr/quality-commitment/"
+      },
+      {
+        "text": "Quality Commitment",
+        "href": "https://www.fridays.gr/quality-commitment/"
+      },
+      {
+        "text": "Food Quality",
+        "href": "https://www.fridays.gr/food-facts/"
+      },
+      {
+        "text": "Allergen Menu",
+        "href": "https://www.fridays.gr/wp-content/uploads/2024/09/09.24_gr_menu_allergen_1440.pdf"
+      },
+      {
+        "text": "CAREER",
+        "href": "https://www.fridays.gr/career/"
+      },
+      {
+        "text": "OUR STORY",
+        "href": "https://www.fridays.gr/our-story/"
+      },
+      {
+        "text": "EN",
+        "href": "https://www.fridays.gr/en/"
+      }
+    ],
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Σχετικά με τα cookies αυτού του ιστοτόπου",
+        "fontSize": "27px",
+        "fontFamily": "Inter, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "32.4px"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "ΑΠΟΔΟΧΗ",
+        "bg": "rgb(223, 39, 29)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "ΑΠΟΡΡΙΨΗ",
+        "bg": "rgb(223, 39, 29)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Προτιμήσεις",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "ΕΓΓΡΑΦΗ",
+        "bg": "rgb(223, 39, 29)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "50%",
+        "fontSize": "25.4545px"
+      },
+      {
+        "text": "BE A MEMBER",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "DAILY SPECIALS",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "fontSize": "16px"
+      },
+      {
+        "text": "Υποβολή",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderRadius": "50%",
+        "fontSize": "25.4545px"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "div",
+        "className": "video-hero \n\t\t\t\tvideo-hero--cover\t\t\t\t",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 0
+        }
+      },
+      {
+        "tag": "div",
+        "className": "video-hero__inner",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 0
+        }
+      },
+      {
+        "tag": "div",
+        "className": "video-hero__bg object-fit-cover",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 0
+        }
+      },
+      {
+        "tag": "div",
+        "className": "video-hero__content",
+        "rect": {
+          "width": 1440,
+          "height": 900,
+          "top": 200
+        }
+      }
+    ],
+    "layout": {
+      "bodyBg": "rgba(0, 0, 0, 0)",
+      "bodyColor": "rgb(0, 0, 0)",
+      "bodyFont": "Inter, sans-serif",
+      "maxContentWidth": null,
+      "hasStickyHeader": true,
+      "headerHeight": 85
+    },
+    "interactions": {
+      "linkCount": 109,
+      "buttonCount": 7,
+      "hasVideo": true,
+      "hasCarousel": true,
+      "scrollHeight": 6159
+    },
+    "scrapedAt": "2026-05-24T13:24:51.439Z"
+  }
+]
