@@ -1,7 +1,7 @@
 import { ImageResponse } from "@vercel/og";
 import { getArticleBySlug } from "@/lib/content/loader";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 export async function GET(
   _request: Request,

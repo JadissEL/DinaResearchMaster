@@ -1,7 +1,7 @@
 import { ImageResponse } from "@vercel/og";
 import { siteConfig } from "@/lib/site-config";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 export async function GET() {
   return new ImageResponse(
