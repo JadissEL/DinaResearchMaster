@@ -6,7 +6,7 @@ import { buildSiteMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildSiteMetadata(
   "Research",
-  "Deep research briefs, company histories, and transformation narratives.",
+  "Deep market and company research on Morocco—sectors, investors, and strategic moves.",
   "/research",
 );
 
@@ -21,7 +21,7 @@ export default async function ResearchPage() {
       <PageHero
         label="Research archive"
         title="Deep analysis"
-        description="Long-form briefs, company transformations, and sector deep divesâ€”curated like a modern editorial archive."
+        description="Long-form market and company research on Morocco—company profiles, sector deep dives, and investor context."
         variant="archive"
       />
 

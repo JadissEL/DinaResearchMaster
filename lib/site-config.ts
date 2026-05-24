@@ -4,9 +4,9 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const siteConfig = {
   name: "DinaResearch",
-  title: "DinaResearch — Intelligence & Research",
+  title: "DinaResearch — Morocco Market Intelligence",
   description:
-    "Premium market intelligence, industry analysis, and strategic foresight.",
+    "Market and company research on Morocco—investor trends, startup funding, initiatives, events, and ecosystem data.",
   url: SITE_URL,
   ogImage: `${SITE_URL}/api/og/default`,
   links: {

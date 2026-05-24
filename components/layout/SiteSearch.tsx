@@ -103,7 +103,7 @@ export function SiteSearch() {
               type="search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search intelligence, topics, companies…"
+              placeholder="Search Morocco market research, companies, topics…"
               className="input-ref flex-1 border-0 bg-transparent px-0 focus:shadow-none"
               autoComplete="off"
             />

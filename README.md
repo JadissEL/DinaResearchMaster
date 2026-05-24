@@ -1,6 +1,6 @@
 # DinaResearchMaster — README
 
-Premium editorial intelligence platform built with Next.js 16, Prisma, and PostgreSQL.
+Premium Morocco market research platform—market and company analysis, investors, startup funding, initiatives, and events.
 
 ## Quick start
 
@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000).
 Articles live in `content/articles/<slug>/`. After editing:
 
 ```bash
-npm run publish -- muhc-innovation-strategy
+npm run publish -- <article-slug>
 # or
 npm run publish:all
 ```

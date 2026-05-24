@@ -5,7 +5,7 @@ import { buildSiteMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildSiteMetadata(
   "Topics",
-  "Explore intelligence by topic clusters—markets, industries, risk, futures, and more.",
+  "Explore Morocco market research by topic—investors, startups, initiatives, events, and more.",
   "/topics",
 );
 
@@ -13,9 +13,9 @@ export default function TopicsPage() {
   return (
     <>
       <PageHero
-        label="Explore all topics"
-        title="Topic clusters"
-        description="Semantic clusters for discovering connected research—Apple-style modules, New Yorker taxonomy depth."
+        label="Explore topics"
+        title="Morocco research topics"
+        description="Market panorama, companies, investors, startup funding, initiatives, and ecosystem events."
       />
 
       <section>

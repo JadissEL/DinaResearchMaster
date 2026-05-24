@@ -49,15 +49,17 @@ export function personJsonLd() {
     "@type": "Person",
     name: "Dina",
     description:
-      "Strategic researcher and analyst focused on markets, industries, and institutional transformation.",
+      "Market and company research on Morocco—investors, startup funding, initiatives, and ecosystem events.",
     url: `${SITE_URL}/about`,
     sameAs: ["https://linkedin.com"],
-    jobTitle: "Researcher & Strategic Analyst",
+    jobTitle: "Market Research Publisher",
     knowsAbout: [
-      "Market Intelligence",
-      "Industry Analysis",
-      "Strategic Foresight",
-      "Innovation Strategy",
+      "Moroccan Market Analysis",
+      "Company Research",
+      "Investor Trends",
+      "Startup Funding",
+      "Market Initiatives",
+      "Ecosystem Events",
     ],
   };
 }

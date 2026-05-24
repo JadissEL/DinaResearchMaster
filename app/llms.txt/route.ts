@@ -1,4 +1,4 @@
-import { getPublishedArticles } from "@/lib/content/loader";
+import { getPublishedArticles, TOPICS } from "@/lib/content/loader";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
@@ -7,25 +7,29 @@ export async function GET() {
 
   const body = `# DinaResearch
 
-> Premium market intelligence, industry analysis, and strategic foresight.
+> Market and company research on Morocco—investors, startup funding, initiatives, events, and ecosystem data.
 
 ## About
 
-DinaResearch is a personal knowledge ecosystem publishing research-grade analysis on markets, industries, companies, risks, and futures. Content is optimized for human readers and AI retrieval systems.
+DinaResearch publishes market and company research focused on the Moroccan panorama: investor trends (domestic and international), startup funding, initiatives, programs, and ecosystem events.
 
-## Flagship content
+## Published research
 
-${articles
-  .slice(0, 10)
-  .map(
-    (a) =>
-      `- [${a.meta.title}](${SITE_URL}/intelligence/${a.meta.slug}): ${a.meta.aiSummary}`,
-  )
-  .join("\n")}
+${
+  articles.length > 0
+    ? articles
+        .slice(0, 10)
+        .map(
+          (a) =>
+            `- [${a.meta.title}](${SITE_URL}/intelligence/${a.meta.slug}): ${a.meta.aiSummary}`,
+        )
+        .join("\n")
+    : "- No articles published yet."
+}
 
 ## Topics
 
-- Markets, Industries, Companies, Macro, Risk, Futures, Academic, Career
+${TOPICS.map((t) => `- ${t.name}: ${t.description}`).join("\n")}
 
 ## Usage
 

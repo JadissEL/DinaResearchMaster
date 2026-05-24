@@ -40,7 +40,7 @@ export async function GET() {
               letterSpacing: "0.15em",
             }}
           >
-            Intelligence & Research
+            Morocco Market Intelligence
           </span>
           <h1
             style={{
@@ -52,7 +52,7 @@ export async function GET() {
               maxWidth: 900,
             }}
           >
-            Giving space to ideas
+            Morocco market research
           </h1>
           <p
             style={{

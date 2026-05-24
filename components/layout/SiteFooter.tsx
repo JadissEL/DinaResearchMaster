@@ -15,7 +15,7 @@ export function SiteFooter() {
               {siteConfig.name}
             </p>
             <p className="display-ws mt-6 !text-3xl md:!text-4xl">
-              More is more.
+              Morocco market research.
             </p>
             <p className="mt-4 max-w-sm font-ui text-sm leading-relaxed text-[var(--surface-text-muted)]">
               {siteConfig.description}

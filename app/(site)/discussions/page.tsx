@@ -6,7 +6,7 @@ import { buildSiteMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildSiteMetadata(
   "Discussions",
-  "Active conversations and collective intelligence across research articles.",
+  "Conversations on published Morocco market and company research.",
   "/discussions",
 );
 
@@ -16,7 +16,7 @@ export default async function DiscussionsPage() {
   return (
     <>
       <PromoBand
-        title="Active discussions across the latest research"
+        title="Discuss the latest Morocco market research"
         cta="Browse topics"
         href="/topics"
       />
@@ -25,8 +25,8 @@ export default async function DiscussionsPage() {
         <FadeIn>
           <h2 className="section-todays-mix">Join a conversation</h2>
           <p className="mt-4 max-w-2xl font-ui text-base text-[var(--ref-ws-muted)]">
-            Moderated perspectives on published intelligence. Share insight that
-            advances collective understanding.
+            Moderated perspectives on published research about companies,
+            investors, startups, and ecosystem signals in Morocco.
           </p>
         </FadeIn>
 
@@ -45,6 +45,12 @@ export default async function DiscussionsPage() {
             </li>
           ))}
         </ul>
+
+        {articles.length === 0 && (
+          <p className="mt-12 font-ui text-[var(--ref-ws-muted)]">
+            No discussions yet. Research will appear here once published.
+          </p>
+        )}
       </div>
     </>
   );

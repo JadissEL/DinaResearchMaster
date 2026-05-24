@@ -14,8 +14,8 @@ import { buildSiteMetadata } from "@/lib/seo/metadata";
 import { personJsonLd, JsonLd } from "@/lib/seo/jsonld";
 
 export const metadata = buildSiteMetadata(
-  "Giving space to ideas",
-  "A premium intelligence ecosystem for market insight, industry analysis, and strategic foresight.",
+  "Morocco market intelligence",
+  "Market and company research on Morocco—investors, startup funding, initiatives, events, and ecosystem data.",
   "/",
 );
 
@@ -35,7 +35,7 @@ export default async function HomePage() {
       <JsonLd data={personJsonLd()} />
 
       <div className="masthead-strip container-editorial flex items-center justify-between py-3">
-        <span>Intelligence {"\u00b7"} Research {"\u00b7"} Foresight</span>
+        <span>Markets {"\u00b7"} Companies {"\u00b7"} Investors {"\u00b7"} Startups</span>
         <time dateTime={today} suppressHydrationWarning>
           {monthYear}
         </time>
@@ -47,15 +47,15 @@ export default async function HomePage() {
             <FadeIn>
               <p className="label-mission">DinaResearch</p>
               <h1 className="hero-v10-title mt-6">
-                <TextBalancer as="span">Giving space to ideas</TextBalancer>
+                <TextBalancer as="span">Morocco&apos;s market intelligence</TextBalancer>
               </h1>
               <p className="mt-8 max-w-md font-ui text-base leading-relaxed text-[var(--surface-text-muted)]">
-                Boutique intelligence for markets, industries, and the
-                transformations shaping what comes next.
+                Market and company research on the Moroccan panorama{"\u2014"}investor
+                trends, startup funding, initiatives, events, and ecosystem data.
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
                 <Link href="/intelligence" className="btn-v10 btn-v10-primary">
-                  Explore intelligence
+                  Browse research
                 </Link>
                 <Link href="/connect" className="btn-v10 btn-v10-ghost">
                   Get in touch
@@ -72,7 +72,7 @@ export default async function HomePage() {
                 ))
               ) : (
                 <p className="font-ui text-sm text-[var(--surface-text-muted)]">
-                  Case studies coming soon.
+                  Moroccan market research publishing soon.
                 </p>
               )}
             </div>
@@ -84,7 +84,7 @@ export default async function HomePage() {
         <div className="container-editorial">
           <FadeIn>
             <div className="flex items-end justify-between border-b border-[var(--surface-border)] pb-6">
-              <h2 className="section-todays-mix">Today&apos;s Mix</h2>
+              <h2 className="section-todays-mix">Latest research</h2>
               <Link
                 href="/intelligence"
                 className="font-ui text-sm text-[var(--surface-text-muted)] hover:text-[var(--surface-text)]"
@@ -119,7 +119,7 @@ export default async function HomePage() {
           <IntelligenceTile
             key={topic.slug}
             title={topic.name}
-            subtitle={`Explore ${topic.name.toLowerCase()}`}
+            subtitle={topic.description}
             href={`/topics/${topic.slug}`}
             index={i}
           />
@@ -129,12 +129,12 @@ export default async function HomePage() {
       <section className="bg-black py-20 text-white">
         <div className="container-editorial">
           <FadeIn>
-            <p className="label-mission text-[var(--ref-v10-orange)]">Our key sectors</p>
+            <p className="label-mission text-[var(--ref-v10-orange)]">Coverage areas</p>
             <h2 className="mt-4 font-ui text-3xl font-medium md:text-4xl">
-              Topic constellation
+              Morocco research topics
             </h2>
           </FadeIn>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {TOPICS.map((topic, i) => (
               <FadeIn key={topic.slug} delay={i * 0.05}>
                 <Link
@@ -151,9 +151,9 @@ export default async function HomePage() {
       </section>
 
       <PromoBand
-        title="Join the conversation on the latest research"
-        cta="View discussions"
-        href="/discussions"
+        title="Track initiatives, events, and ecosystem signals across Morocco"
+        cta="Explore topics"
+        href="/topics"
       />
 
       <TrustStrip />
@@ -161,12 +161,13 @@ export default async function HomePage() {
       <section className="bg-[var(--surface-bg-inset)] py-24">
         <div className="container-editorial max-w-3xl text-center">
           <FadeIn>
-            <p className="label-mission">Intelligence brief</p>
+            <p className="label-mission">Research brief</p>
             <h2 className="mt-4 font-ui text-3xl font-bold text-[var(--surface-text)] md:text-4xl">
-              Start a conversation
+              Share data or collaborate
             </h2>
             <p className="mt-4 font-ui text-[var(--surface-text-muted)]">
-              Curated insights for those who think in systems, not headlines.
+              For market research submissions, investor insights, or ecosystem
+              partnerships focused on Morocco.
             </p>
             <Link href="/connect" className="btn-v10 btn-v10-primary mt-10">
               Get in touch

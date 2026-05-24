@@ -115,44 +115,40 @@ export async function getPublishedArticles(): Promise<PublishedArticle[]> {
 
 export const TOPICS = [
   {
-    slug: "markets",
-    name: "Markets",
-    description: "Macro movements, market structure, and capital flows.",
-  },
-  {
-    slug: "industries",
-    name: "Industries",
-    description: "Sector dynamics, competitive landscapes, and value chains.",
+    slug: "morocco-panorama",
+    name: "Moroccan Market Panorama",
+    description:
+      "Macro view, sector structure, and market dynamics across the Moroccan economy.",
   },
   {
     slug: "companies",
-    name: "Companies",
-    description: "Corporate histories, transformations, and strategic pivots.",
+    name: "Company Research",
+    description:
+      "Profiles, performance, and strategic moves of Moroccan companies and groups.",
   },
   {
-    slug: "macro",
-    name: "Macro",
-    description: "Economic cycles, policy, and global business trends.",
+    slug: "investors",
+    name: "Investors & Capital",
+    description:
+      "Domestic and international investor activity, capital flows, and market entry.",
   },
   {
-    slug: "risk",
-    name: "Risk",
-    description: "Threats, vulnerabilities, and scenario planning.",
+    slug: "startups",
+    name: "Startup Funding",
+    description:
+      "Venture rounds, funds, accelerators, and funding trends in Morocco.",
   },
   {
-    slug: "futures",
-    name: "Futures",
-    description: "Signals, forecasts, and strategic foresight.",
+    slug: "initiatives",
+    name: "Initiatives & Programs",
+    description:
+      "Public policies, institutional programs, and private initiatives shaping the market.",
   },
   {
-    slug: "academic",
-    name: "Academic",
-    description: "Research reflections and scholarly perspectives.",
-  },
-  {
-    slug: "career",
-    name: "Career",
-    description: "Professional growth and PhD journey insights.",
+    slug: "events",
+    name: "Events & Ecosystem",
+    description:
+      "Conferences, demo days, ecosystem gatherings, and industry calendars.",
   },
 ] as const;
 

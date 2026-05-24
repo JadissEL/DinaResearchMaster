@@ -3,12 +3,12 @@ export function TrustStrip() {
     <section className="border-y border-[var(--ref-ny-border)] bg-[var(--ref-ws-bg)] py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <p className="font-ui text-sm text-[var(--ref-ws-muted)]">
-          Trusted by researchers, strategists, and decision-makers
+          Built for investors, founders, and analysts focused on Morocco
         </p>
-        <p className="display-ws mt-6">Depth over noise.</p>
+        <p className="display-ws mt-6">Data-led market research.</p>
         <p className="mx-auto mt-6 max-w-xl font-body text-lg text-[var(--ref-ws-muted)]">
-          Analysis that holds under pressure—curated intelligence for those who
-          think in systems, not headlines.
+          Company profiles, funding rounds, investor flows, initiatives, and
+          events—structured for the Moroccan market panorama.
         </p>
       </div>
     </section>

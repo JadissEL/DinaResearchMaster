@@ -7,7 +7,14 @@ interface BentoMixGridProps {
 }
 
 export function BentoMixGrid({ articles }: BentoMixGridProps) {
-  if (articles.length === 0) return null;
+  if (articles.length === 0) {
+    return (
+      <p className="mt-10 font-ui text-sm text-[var(--surface-text-muted)]">
+        Research on Morocco&apos;s markets, companies, investors, and startups
+        will appear here as it is published.
+      </p>
+    );
+  }
 
   const [lead, ...rest] = articles;
 

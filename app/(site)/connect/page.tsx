@@ -6,10 +6,10 @@ import { toast } from "sonner";
 import { FadeIn } from "@/components/motion";
 
 const TOPICS = [
-  "Research collaboration",
-  "Speaking",
-  "Media inquiry",
-  "General conversation",
+  "Market research submission",
+  "Investor or funding data",
+  "Event or initiative listing",
+  "General inquiry",
 ];
 
 export default function ConnectPage() {
@@ -31,7 +31,7 @@ export default function ConnectPage() {
         body: JSON.stringify(form),
       });
       if (!res.ok) throw new Error();
-      toast.success("Message sent â€” thank you");
+      toast.success("Message sent — thank you");
       setStatus("success");
       setForm({ name: "", email: "", topic: TOPICS[0], message: "" });
     } catch {
@@ -45,13 +45,13 @@ export default function ConnectPage() {
       <section className="flex flex-col justify-center bg-ref-v10-gray px-6 py-16 lg:px-12 lg:py-24">
         <FadeIn>
           <p className="label-mission">Connect</p>
-          <h1 className="hero-v10-title mt-6">Give space to your ideas</h1>
+          <h1 className="hero-v10-title mt-6">Contribute to Morocco research</h1>
           <p className="mt-8 max-w-md font-body text-lg leading-relaxed text-black/70">
-            For research discussions, academic collaboration, or thoughtful
-            professional exchangeâ€”no sales pitch required.
+            Share market data, company insights, funding signals, or event
+            information focused on the Moroccan ecosystem.
           </p>
           <p className="mt-10 font-ui text-sm text-black/45">
-            Volume10-inspired contact flow Â· Response within a few business days
+            Response within a few business days
           </p>
         </FadeIn>
       </section>
@@ -119,7 +119,7 @@ export default function ConnectPage() {
               disabled={status === "loading"}
               className="btn-v10 btn-v10-primary w-full disabled:opacity-50"
             >
-              {status === "loading" ? "Sendingâ€¦" : "Get in touch"}
+              {status === "loading" ? "Sending…" : "Get in touch"}
             </button>
           </form>
         </FadeIn>

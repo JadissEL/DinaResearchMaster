@@ -7,7 +7,7 @@ import { buildSiteMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildSiteMetadata(
   "Search",
-  "Search intelligence articles, topics, and research across DinaResearch.",
+  "Search Morocco market research, companies, topics, and investors across DinaResearch.",
   "/search",
 );
 
@@ -25,7 +25,7 @@ export default async function SearchPage({
       <PageHero
         label="Search"
         title={q ? `Results for “${q}”` : "Search the archive"}
-        description="Find intelligence by title, topic, company, or keyword."
+        description="Find research by title, company, investor, topic, or keyword."
       />
 
       <section className="container-editorial pb-24">

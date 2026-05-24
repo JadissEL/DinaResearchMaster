@@ -5,8 +5,8 @@ import { getPublishedArticles } from "@/lib/content/loader";
 import { buildSiteMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildSiteMetadata(
-  "Intelligence",
-  "Latest market insights, industry analysis, and strategic intelligence.",
+  "Latest Research",
+  "Latest market and company research on Morocco—investors, startups, initiatives, and events.",
   "/intelligence",
 );
 
@@ -16,14 +16,14 @@ export default async function IntelligencePage() {
   return (
     <>
       <PageHero
-        label="Intelligence hub"
-        title="The Latest"
-        description="Market analysis, industry research, and strategic foresight—Today's Mix, continuously updated."
+        label="Research hub"
+        title="Latest"
+        description="Market and company research on Morocco—investor trends, startup funding, initiatives, and ecosystem data."
       />
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="flex items-end justify-between border-b border-[var(--ref-ny-border)] pb-6">
-          <h2 className="section-todays-mix">All insights</h2>
+          <h2 className="section-todays-mix">All research</h2>
           <span className="font-mono text-xs text-[var(--ref-apple-muted)]">
             {articles.length} published
           </span>
@@ -41,7 +41,7 @@ export default async function IntelligencePage() {
 
         {articles.length === 0 && (
           <p className="mt-12 font-ui text-[var(--ref-ws-muted)]">
-            No articles published yet.
+            No research published yet.
           </p>
         )}
       </section>
